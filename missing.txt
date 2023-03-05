@@ -42,7 +42,6 @@ Jersey
 Kyrgyzstan 
 Kiribati 
 Saint Kitts and Nevis 
-Korea, Republic of 
 Lao People's Democratic Republic 
 Saint Lucia 
 Liechtenstein 
@@ -68,9 +67,7 @@ Svalbard and Jan Mayen
 San Marino 
 Saint Pierre and Miquelon 
 Sao Tome and Principe 
-Suriname 
-Slovakia 
-Slovenia 
+Suriname  
 Sint Maarten (Dutch part) 
 Syrian Arab Republic 
 Turks and Caicos Islands 

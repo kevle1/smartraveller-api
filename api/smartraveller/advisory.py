@@ -17,6 +17,9 @@ special_mappings = {
     "israel": "middle-east/israel-and-palestinian-territories",
     "kyrgyzstan": "kyrgyz-republic",
     "korea,-democratic-people's-republic-of": "north-korea-democratic-peoples-republic-korea",
+    "korea,-republic-of": "south-korea-republic-korea",
+    "slovenia": "europe/slovenia",
+    "slovakia": "europe/slovakia",
     "taiwan,-province-of-china": "taiwan",
     "united-states": "americas/united-states-america",
     "viet-nam": "vietnam",
@@ -33,7 +36,8 @@ def get_overall_advisory(country: str) -> dict:
         country_query = country
     print(country_query)
     
-    response = requests.get(f'https://www.smartraveller.gov.au/destinations/{country_query}', timeout=2)
+    url = f'https://www.smartraveller.gov.au/destinations/{country_query}'
+    response = requests.get(url, timeout=2)
     html = response.content
     
     site = BeautifulSoup(html, 'html.parser')
@@ -48,5 +52,6 @@ def get_overall_advisory(country: str) -> dict:
     
     return {
         "advisory": advisory,
-        "level": advisory_level[advisory]
+        "level": advisory_level[advisory],
+        "page_url": url
     }
