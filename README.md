@@ -2,7 +2,7 @@
 
 A simple API for travel advisories published by the Australian Government on [Smartraveller](https://www.smartraveller.gov.au/).
 
-**This is not an official API. Visit the Smartraveller website for latest information**
+**This is not an official API. Visit the Smartraveller website for the latest information.**
 
 ## Locally running
 ```
@@ -20,7 +20,7 @@ OR
 
 ## Endpoint(s)
 
-### GET /advisory
+### [GET /advisory](https://smartraveller.api.kevle.xyz?country=es)
 
 Fetches an advice summary for a country. 
 
@@ -45,4 +45,4 @@ Responses may be cached for up to 1 hour.
 
 ## Copyright
 
-Smartraveller material accessed is provided under the latest [Creative Commons Attribution licence](creativecommons.org/licenses/by/4.0/). 
+Smartraveller material accessed is provided under the latest [Creative Commons Attribution licence](https://creativecommons.org/licenses/by/4.0/). 

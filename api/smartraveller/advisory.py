@@ -9,10 +9,13 @@ advisory_level ={
     "Do not travel": 4
 }
 
-def get_overall_advisory() -> dict:
-    country = "austria"
+def get_overall_advisory(country: str) -> dict:
+    response = requests.get(f'https://www.smartraveller.gov.au/destinations/{country}', timeout=2)
+    print(response.status_code)
+    html = response.content
     
-    html = requests.get(f'https://www.smartraveller.gov.au/destinations/{country}').content
+    print(html)
+    
     site = BeautifulSoup(html, 'html.parser')
     
     advisory_block = site.findAll('div', { 'class': 'views-field views-field-field-overall-advice-level'})
@@ -22,6 +25,3 @@ def get_overall_advisory() -> dict:
         "advisory": advisory,
         "level": advisory_level[advisory]
     }
-
-if __name__ == "__main__":
-    print(get_overall_advisory())

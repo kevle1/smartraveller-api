@@ -22,10 +22,10 @@ def advisory():
             country = None
         
         if country is not None:
-            advisory = get_overall_advisory()
-            
             country_query = country.name.lower().replace(" ", "-")
             logging.debug(f"Querying for country: {country_query}")
+            
+            advisory = get_overall_advisory(country_query)
             
             advisory["country"] = country.name
             advisory["alpha_2"] = country.alpha_2
