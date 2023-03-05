@@ -1,6 +1,9 @@
 {
     "rewrites": [
-        { "source": "/(.*)", "destination": "/api/api" }
+        {
+            "source": "/(.*)",
+            "destination": "/api/api"
+        }
     ],
     "regions": [
         "syd1"

@@ -27,9 +27,14 @@ def advisory():
             
             advisory = get_overall_advisory(country_query)
             
+            if advisory is None:
+                return "Smartraveller does not have published advisory for selected country", 404
+            
             advisory["country"] = country.name
             advisory["alpha_2"] = country.alpha_2
-            advisory["official_name"] = country.official_name
+            
+            if hasattr(country, 'official_name'):
+                advisory["official_name"] = country.official_name
             
             response = Response(json.dumps(advisory))
             response.headers['Cache-Control'] = 's-maxage=3600' # Vercel cache for 1 hour

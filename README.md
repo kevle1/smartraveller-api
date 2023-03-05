@@ -1,6 +1,6 @@
 # Smartraveller API
 
-A simple API for travel advisories published by the Australian Government on [Smartraveller](https://www.smartraveller.gov.au/).
+A simple API for travel advisories published by the Australian Government DFAT on [Smartraveller](https://www.smartraveller.gov.au/).
 
 **This is not an official API. Visit the Smartraveller website for the latest information.**
 
@@ -22,7 +22,7 @@ Note: Set Vercel function region to `Sydney, Australia (Southeast) - syd1` as re
 
 ## Endpoint(s)
 
-### [GET /advisory](https://smartraveller.api.kevle.xyz/advisory?country=es)
+### [GET /advisory](https://smartraveller.api.kevle.xyz/advisory)
 
 Fetches an advice summary for a country. 
 
@@ -31,9 +31,11 @@ Responses may be cached for up to 1 hour.
 #### Query Parameters 
 
 - country (required)
-  - Note: Fuzzy matches for country - E.g. "Spain" or "ES" is accepted. However it is recommend to use Alpha 3 country codes. 
+  - Note: Fuzzy matches for country - E.g. "Spain" or "ES" is accepted. However it is recommend to use [ISO 3166-1 alpha-2 country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). 
 
 #### Example Response 
+
+https://smartraveller.api.kevle.xyz/advisory?country=es
 
 ```
 {
@@ -44,6 +46,14 @@ Responses may be cached for up to 1 hour.
   "official_name": "Kingdom of Spain"
 }
 ```
+
+## Known Problems
+
+Smartraveller uses non-standardised and inconsistent names for countries and does not utilise any standard country codes such as the [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) standard. 
+
+Mappings for certain countries have been temporarily added, but may be inconsistent. 
+
+Need to explore if it is possible to build a mapping programatically using the available ["PublishedPages" API](https://www.smartraveller.gov.au/api/publishedpages). 
 
 ## Copyright
 
