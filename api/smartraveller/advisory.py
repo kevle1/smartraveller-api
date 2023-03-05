@@ -11,10 +11,7 @@ advisory_level ={
 
 def get_overall_advisory(country: str) -> dict:
     response = requests.get(f'https://www.smartraveller.gov.au/destinations/{country}', timeout=2)
-    print(response.status_code)
     html = response.content
-    
-    print(html)
     
     site = BeautifulSoup(html, 'html.parser')
     
