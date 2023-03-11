@@ -4,16 +4,16 @@ from flask import Flask, request, Response
 from api.smartraveller.advisory import get_overall_advisory
 import logging
 
-app = Flask(__name__, static_url_path='')
-@app.route('/')
+app = Flask(__name__, static_url_path="")
+@app.route("/")
 def index(): 
     return '<h1>Smartraveller API</h1> \
             <p>Smartraveller material accessed is provided under the latest Creative Commons Attribution licence.<p/> \
             <a href="https://www.smartraveller.gov.au/">Smartraveller</a>'
 
-@app.route('/advisory')
+@app.route("/advisory")
 def advisory():
-    country_query = request.args.get('country')
+    country_query = request.args.get("country")
     if country_query:
         try:
             country = pycountry.countries.lookup(country_query)
@@ -33,15 +33,27 @@ def advisory():
             advisory["country"] = country.name
             advisory["alpha_2"] = country.alpha_2
             
-            if hasattr(country, 'official_name'):
+            if hasattr(country, "official_name"):
                 advisory["official_name"] = country.official_name
             
             response = Response(json.dumps(advisory))
-            response.headers['Cache-Control'] = 's-maxage=3600' # Vercel cache for 1 hour
-            response.headers['Content-Type'] = 'application/json'
+            response.headers["Cache-Control"] = "s-maxage=3600" # Vercel cache for 1 hour
+            response.headers["Content-Type"] = "application/json"
             
             return response
         else:
             return "Invalid country", 404
     else:
         return "Missing country query parameter", 400
+
+@app.route("/advisories")
+def advisories():
+    advisories = None
+    with open("smartraveller-compounded.json", "r") as advisories:
+        json_advisories = json.load(advisories)
+    
+    response = Response(json.dumps(json_advisories))
+    response.headers["Cache-Control"] = "s-maxage=86400" # Vercel cache for 1 day
+    response.headers["Content-Type"] = "application/json"
+    
+    return response
