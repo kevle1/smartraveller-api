@@ -1,10 +1,13 @@
 import json
 import pycountry
 from flask import Flask, request, Response
+from flask_cors import CORS
 from api.smartraveller.advisory import get_overall_advisory
 import logging
 
 app = Flask(__name__, static_url_path="")
+CORS(app)
+
 @app.route("/")
 def index(): 
     return '<h1>Smartraveller API</h1> \
