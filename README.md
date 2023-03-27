@@ -1,6 +1,6 @@
 # Smartraveller API
 
-A simple API for travel advisories published by the Australian Government DFAT on [Smartraveller](https://www.smartraveller.gov.au/).
+A simple API for travel advisories published by the Australian DFAT on [Smartraveller](https://www.smartraveller.gov.au/).
 
 **This is not an official API. Visit the Smartraveller website for the latest information.**
 
@@ -46,6 +46,12 @@ https://smartraveller.api.kevle.xyz/advisory?country=es
   "official_name": "Kingdom of Spain"
 }
 ```
+
+### [GET /advisories]
+
+Fetches advice summaries for all countries available on Smartraveller. 
+
+Responses may be cached for up to 1 day. 
 
 ## Known Problems
 
