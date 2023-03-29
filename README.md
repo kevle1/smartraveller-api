@@ -47,7 +47,7 @@ https://smartraveller.api.kevle.xyz/advisory?country=es
 }
 ```
 
-### [GET /advisories]
+### [GET /advisories](https://smartraveller.api.kevle.xyz/advisories)
 
 Fetches advice summaries for all countries available on Smartraveller. 
 
