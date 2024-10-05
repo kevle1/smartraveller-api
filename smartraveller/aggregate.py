@@ -7,8 +7,7 @@ import pycountry
 import requests
 from destination import _fetch_destinations
 
-# BASE_URL = "https://smartraveller.api.kevle.xyz"
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "https://smartraveller.api.kevle.xyz"
 OUTPUT_PREFIX = "data"
 
 
@@ -22,7 +21,7 @@ def _save_destinations():
         json.dump(
             {
                 "last_updated": datetime.now(timezone.utc).isoformat(),
-                "destinations": destinations,
+                "destinations": dict(sorted(destinations.items())),
             },
             outfile,
             indent=4,

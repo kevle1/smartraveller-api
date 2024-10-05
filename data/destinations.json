@@ -1,6 +1,615 @@
 {
-    "last_updated": "2024-10-05T04:55:06.260067+00:00",
+    "last_updated": "2024-10-05T06:11:20.824473+00:00",
     "destinations": {
+        "AE": {
+            "country": {
+                "name": "United Arab Emirates",
+                "alpha_2": "AE"
+            },
+            "page_url": "/destinations/middle-east/united-arab-emirates"
+        },
+        "AF": {
+            "country": {
+                "name": "Afghanistan",
+                "alpha_2": "AF"
+            },
+            "page_url": "/destinations/asia/afghanistan"
+        },
+        "AL": {
+            "country": {
+                "name": "Albania",
+                "alpha_2": "AL"
+            },
+            "page_url": "/destinations/europe/albania"
+        },
+        "AM": {
+            "country": {
+                "name": "Armenia",
+                "alpha_2": "AM"
+            },
+            "page_url": "/destinations/europe/armenia"
+        },
+        "AO": {
+            "country": {
+                "name": "Angola",
+                "alpha_2": "AO"
+            },
+            "page_url": "/destinations/africa/angola"
+        },
+        "AR": {
+            "country": {
+                "name": "Argentina",
+                "alpha_2": "AR"
+            },
+            "page_url": "/destinations/americas/argentina"
+        },
+        "AT": {
+            "country": {
+                "name": "Austria",
+                "alpha_2": "AT"
+            },
+            "page_url": "/destinations/europe/austria"
+        },
+        "AZ": {
+            "country": {
+                "name": "Azerbaijan",
+                "alpha_2": "AZ"
+            },
+            "page_url": "/destinations/europe/azerbaijan"
+        },
+        "BA": {
+            "country": {
+                "name": "Bosnia and Herzegovina",
+                "alpha_2": "BA"
+            },
+            "page_url": "/destinations/europe/bosnia-and-herzegovina"
+        },
+        "BD": {
+            "country": {
+                "name": "Bangladesh",
+                "alpha_2": "BD"
+            },
+            "page_url": "/destinations/asia/bangladesh"
+        },
+        "BE": {
+            "country": {
+                "name": "Belgium",
+                "alpha_2": "BE"
+            },
+            "page_url": "/destinations/europe/belgium"
+        },
+        "BF": {
+            "country": {
+                "name": "Burkina Faso",
+                "alpha_2": "BF"
+            },
+            "page_url": "/destinations/africa/burkina-faso"
+        },
+        "BG": {
+            "country": {
+                "name": "Bulgaria",
+                "alpha_2": "BG"
+            },
+            "page_url": "/destinations/europe/bulgaria"
+        },
+        "BH": {
+            "country": {
+                "name": "Bahrain",
+                "alpha_2": "BH"
+            },
+            "page_url": "/destinations/middle-east/bahrain"
+        },
+        "BI": {
+            "country": {
+                "name": "Burundi",
+                "alpha_2": "BI"
+            },
+            "page_url": "/destinations/africa/burundi"
+        },
+        "BJ": {
+            "country": {
+                "name": "Benin",
+                "alpha_2": "BJ"
+            },
+            "page_url": "/destinations/africa/benin"
+        },
+        "BN": {
+            "country": {
+                "name": "Brunei Darussalam",
+                "alpha_2": "BN"
+            },
+            "page_url": "/destinations/asia/brunei-darussalam"
+        },
+        "BO": {
+            "country": {
+                "name": "Bolivia, Plurinational State of",
+                "alpha_2": "BO"
+            },
+            "page_url": "/destinations/americas/bolivia"
+        },
+        "BR": {
+            "country": {
+                "name": "Brazil",
+                "alpha_2": "BR"
+            },
+            "page_url": "/destinations/americas/brazil"
+        },
+        "BS": {
+            "country": {
+                "name": "Bahamas",
+                "alpha_2": "BS"
+            },
+            "page_url": "/destinations/americas/bahamas"
+        },
+        "BT": {
+            "country": {
+                "name": "Bhutan",
+                "alpha_2": "BT"
+            },
+            "page_url": "/destinations/asia/bhutan"
+        },
+        "BW": {
+            "country": {
+                "name": "Botswana",
+                "alpha_2": "BW"
+            },
+            "page_url": "/destinations/africa/botswana"
+        },
+        "BY": {
+            "country": {
+                "name": "Belarus",
+                "alpha_2": "BY"
+            },
+            "page_url": "/destinations/europe/belarus"
+        },
+        "BZ": {
+            "country": {
+                "name": "Belize",
+                "alpha_2": "BZ"
+            },
+            "page_url": "/destinations/americas/belize"
+        },
+        "CA": {
+            "country": {
+                "name": "Canada",
+                "alpha_2": "CA"
+            },
+            "page_url": "/destinations/americas/canada"
+        },
+        "CD": {
+            "country": {
+                "name": "Congo, The Democratic Republic of the",
+                "alpha_2": "CD"
+            },
+            "page_url": "/destinations/africa/democratic-republic-congo"
+        },
+        "CF": {
+            "country": {
+                "name": "Central African Republic",
+                "alpha_2": "CF"
+            },
+            "page_url": "/destinations/africa/central-african-republic"
+        },
+        "CH": {
+            "country": {
+                "name": "Switzerland",
+                "alpha_2": "CH"
+            },
+            "page_url": "/destinations/europe/switzerland"
+        },
+        "CI": {
+            "country": {
+                "name": "C\u00f4te d'Ivoire",
+                "alpha_2": "CI"
+            },
+            "page_url": "/destinations/africa/cote-divoire-ivory-coast"
+        },
+        "CK": {
+            "country": {
+                "name": "Cook Islands",
+                "alpha_2": "CK"
+            },
+            "page_url": "/destinations/pacific/cook-islands"
+        },
+        "CL": {
+            "country": {
+                "name": "Chile",
+                "alpha_2": "CL"
+            },
+            "page_url": "/destinations/americas/chile"
+        },
+        "CM": {
+            "country": {
+                "name": "Cameroon",
+                "alpha_2": "CM"
+            },
+            "page_url": "/destinations/africa/cameroon"
+        },
+        "CN": {
+            "country": {
+                "name": "China",
+                "alpha_2": "CN"
+            },
+            "page_url": "/destinations/asia/china"
+        },
+        "CO": {
+            "country": {
+                "name": "Colombia",
+                "alpha_2": "CO"
+            },
+            "page_url": "/destinations/americas/colombia"
+        },
+        "CR": {
+            "country": {
+                "name": "Costa Rica",
+                "alpha_2": "CR"
+            },
+            "page_url": "/destinations/americas/costa-rica"
+        },
+        "CU": {
+            "country": {
+                "name": "Cuba",
+                "alpha_2": "CU"
+            },
+            "page_url": "/destinations/americas/cuba"
+        },
+        "CY": {
+            "country": {
+                "name": "Cyprus",
+                "alpha_2": "CY"
+            },
+            "page_url": "/destinations/europe/cyprus"
+        },
+        "CZ": {
+            "country": {
+                "name": "Czechia",
+                "alpha_2": "CZ"
+            },
+            "page_url": "/destinations/europe/czech-republic"
+        },
+        "DE": {
+            "country": {
+                "name": "Germany",
+                "alpha_2": "DE"
+            },
+            "page_url": "/destinations/europe/germany"
+        },
+        "DJ": {
+            "country": {
+                "name": "Djibouti",
+                "alpha_2": "DJ"
+            },
+            "page_url": "/destinations/africa/djibouti"
+        },
+        "DK": {
+            "country": {
+                "name": "Denmark",
+                "alpha_2": "DK"
+            },
+            "page_url": "/destinations/europe/denmark"
+        },
+        "DO": {
+            "country": {
+                "name": "Dominican Republic",
+                "alpha_2": "DO"
+            },
+            "page_url": "/destinations/americas/dominican-republic"
+        },
+        "DZ": {
+            "country": {
+                "name": "Algeria",
+                "alpha_2": "DZ"
+            },
+            "page_url": "/destinations/africa/algeria"
+        },
+        "EC": {
+            "country": {
+                "name": "Ecuador",
+                "alpha_2": "EC"
+            },
+            "page_url": "/destinations/americas/ecuador"
+        },
+        "EE": {
+            "country": {
+                "name": "Estonia",
+                "alpha_2": "EE"
+            },
+            "page_url": "/destinations/europe/estonia"
+        },
+        "EG": {
+            "country": {
+                "name": "Egypt",
+                "alpha_2": "EG"
+            },
+            "page_url": "/destinations/africa/egypt"
+        },
+        "ER": {
+            "country": {
+                "name": "Eritrea",
+                "alpha_2": "ER"
+            },
+            "page_url": "/destinations/africa/eritrea"
+        },
+        "ES": {
+            "country": {
+                "name": "Spain",
+                "alpha_2": "ES"
+            },
+            "page_url": "/destinations/europe/spain"
+        },
+        "ET": {
+            "country": {
+                "name": "Ethiopia",
+                "alpha_2": "ET"
+            },
+            "page_url": "/destinations/africa/ethiopia"
+        },
+        "FI": {
+            "country": {
+                "name": "Finland",
+                "alpha_2": "FI"
+            },
+            "page_url": "/destinations/europe/finland"
+        },
+        "FJ": {
+            "country": {
+                "name": "Fiji",
+                "alpha_2": "FJ"
+            },
+            "page_url": "/destinations/pacific/fiji"
+        },
+        "FM": {
+            "country": {
+                "name": "Micronesia, Federated States of",
+                "alpha_2": "FM"
+            },
+            "page_url": "/destinations/pacific/federated-states-micronesia"
+        },
+        "FR": {
+            "country": {
+                "name": "France",
+                "alpha_2": "FR"
+            },
+            "page_url": "/destinations/europe/france"
+        },
+        "GA": {
+            "country": {
+                "name": "Gabon",
+                "alpha_2": "GA"
+            },
+            "page_url": "/destinations/africa/gabon"
+        },
+        "GB": {
+            "country": {
+                "name": "United Kingdom",
+                "alpha_2": "GB"
+            },
+            "page_url": "/destinations/europe/united-kingdom"
+        },
+        "GE": {
+            "country": {
+                "name": "Georgia",
+                "alpha_2": "GE"
+            },
+            "page_url": "/destinations/europe/georgia"
+        },
+        "GH": {
+            "country": {
+                "name": "Ghana",
+                "alpha_2": "GH"
+            },
+            "page_url": "/destinations/africa/ghana"
+        },
+        "GM": {
+            "country": {
+                "name": "Gambia",
+                "alpha_2": "GM"
+            },
+            "page_url": "/destinations/africa/gambia"
+        },
+        "GN": {
+            "country": {
+                "name": "Guinea",
+                "alpha_2": "GN"
+            },
+            "page_url": "/destinations/africa/guinea"
+        },
+        "GR": {
+            "country": {
+                "name": "Greece",
+                "alpha_2": "GR"
+            },
+            "page_url": "/destinations/europe/greece"
+        },
+        "GT": {
+            "country": {
+                "name": "Guatemala",
+                "alpha_2": "GT"
+            },
+            "page_url": "/destinations/americas/guatemala"
+        },
+        "GU": {
+            "country": {
+                "name": "Guam",
+                "alpha_2": "GU"
+            },
+            "page_url": "/destinations/pacific/guam"
+        },
+        "GY": {
+            "country": {
+                "name": "Guyana",
+                "alpha_2": "GY"
+            },
+            "page_url": "/destinations/americas/guyana"
+        },
+        "HK": {
+            "country": {
+                "name": "Hong Kong",
+                "alpha_2": "HK"
+            },
+            "page_url": "/destinations/asia/hong-kong"
+        },
+        "HN": {
+            "country": {
+                "name": "Honduras",
+                "alpha_2": "HN"
+            },
+            "page_url": "/destinations/americas/honduras"
+        },
+        "HR": {
+            "country": {
+                "name": "Croatia",
+                "alpha_2": "HR"
+            },
+            "page_url": "/destinations/europe/croatia"
+        },
+        "HT": {
+            "country": {
+                "name": "Haiti",
+                "alpha_2": "HT"
+            },
+            "page_url": "/destinations/americas/haiti"
+        },
+        "HU": {
+            "country": {
+                "name": "Hungary",
+                "alpha_2": "HU"
+            },
+            "page_url": "/destinations/europe/hungary"
+        },
+        "ID": {
+            "country": {
+                "name": "Indonesia",
+                "alpha_2": "ID"
+            },
+            "page_url": "/destinations/asia/indonesia"
+        },
+        "IE": {
+            "country": {
+                "name": "Ireland",
+                "alpha_2": "IE"
+            },
+            "page_url": "/destinations/europe/ireland"
+        },
+        "IL": {
+            "country": {
+                "name": "Israel",
+                "alpha_2": "IL"
+            },
+            "page_url": "/destinations/middle-east/israel-and-occupied-palestinian-territories"
+        },
+        "IN": {
+            "country": {
+                "name": "India",
+                "alpha_2": "IN"
+            },
+            "page_url": "/destinations/asia/india"
+        },
+        "IQ": {
+            "country": {
+                "name": "Iraq",
+                "alpha_2": "IQ"
+            },
+            "page_url": "/destinations/middle-east/iraq"
+        },
+        "IR": {
+            "country": {
+                "name": "Iran, Islamic Republic of",
+                "alpha_2": "IR"
+            },
+            "page_url": "/destinations/middle-east/iran"
+        },
+        "IS": {
+            "country": {
+                "name": "Iceland",
+                "alpha_2": "IS"
+            },
+            "page_url": "/destinations/europe/iceland"
+        },
+        "IT": {
+            "country": {
+                "name": "Italy",
+                "alpha_2": "IT"
+            },
+            "page_url": "/destinations/europe/italy"
+        },
+        "JM": {
+            "country": {
+                "name": "Jamaica",
+                "alpha_2": "JM"
+            },
+            "page_url": "/destinations/americas/jamaica"
+        },
+        "JO": {
+            "country": {
+                "name": "Jordan",
+                "alpha_2": "JO"
+            },
+            "page_url": "/destinations/middle-east/jordan"
+        },
+        "JP": {
+            "country": {
+                "name": "Japan",
+                "alpha_2": "JP"
+            },
+            "page_url": "/destinations/asia/japan"
+        },
+        "KE": {
+            "country": {
+                "name": "Kenya",
+                "alpha_2": "KE"
+            },
+            "page_url": "/destinations/africa/kenya"
+        },
+        "KG": {
+            "country": {
+                "name": "Kyrgyzstan",
+                "alpha_2": "KG"
+            },
+            "page_url": "/destinations/asia/kyrgyz-republic"
+        },
+        "KH": {
+            "country": {
+                "name": "Cambodia",
+                "alpha_2": "KH"
+            },
+            "page_url": "/destinations/asia/cambodia"
+        },
+        "KP": {
+            "country": {
+                "name": "Korea, Democratic People's Republic of",
+                "alpha_2": "KP"
+            },
+            "page_url": "/destinations/asia/north-korea-democratic-peoples-republic-korea"
+        },
+        "KR": {
+            "country": {
+                "name": "Korea, Republic of",
+                "alpha_2": "KR"
+            },
+            "page_url": "/destinations/asia/south-korea-republic-korea"
+        },
+        "KW": {
+            "country": {
+                "name": "Kuwait",
+                "alpha_2": "KW"
+            },
+            "page_url": "/destinations/middle-east/kuwait"
+        },
+        "KZ": {
+            "country": {
+                "name": "Kazakhstan",
+                "alpha_2": "KZ"
+            },
+            "page_url": "/destinations/asia/kazakhstan"
+        },
+        "LA": {
+            "country": {
+                "name": "Lao People's Democratic Republic",
+                "alpha_2": "LA"
+            },
+            "page_url": "/destinations/asia/laos"
+        },
         "LB": {
             "country": {
                 "name": "Lebanon",
@@ -15,138 +624,159 @@
             },
             "page_url": "/destinations/asia/sri-lanka"
         },
-        "JO": {
+        "LR": {
             "country": {
-                "name": "Jordan",
-                "alpha_2": "JO"
+                "name": "Liberia",
+                "alpha_2": "LR"
             },
-            "page_url": "/destinations/middle-east/jordan"
+            "page_url": "/destinations/africa/liberia"
         },
-        "IR": {
+        "LS": {
             "country": {
-                "name": "Iran, Islamic Republic of",
-                "alpha_2": "IR"
+                "name": "Lesotho",
+                "alpha_2": "LS"
             },
-            "page_url": "/destinations/middle-east/iran"
+            "page_url": "/destinations/africa/lesotho"
         },
-        "TW": {
+        "LT": {
             "country": {
-                "name": "Taiwan, Province of China",
-                "alpha_2": "TW"
+                "name": "Lithuania",
+                "alpha_2": "LT"
             },
-            "page_url": "/destinations/asia/taiwan"
+            "page_url": "/destinations/europe/lithuania"
         },
-        "RW": {
+        "LV": {
             "country": {
-                "name": "Rwanda",
-                "alpha_2": "RW"
+                "name": "Latvia",
+                "alpha_2": "LV"
             },
-            "page_url": "/destinations/africa/rwanda"
+            "page_url": "/destinations/europe/latvia"
         },
-        "BH": {
+        "LY": {
             "country": {
-                "name": "Bahrain",
-                "alpha_2": "BH"
+                "name": "Libya",
+                "alpha_2": "LY"
             },
-            "page_url": "/destinations/middle-east/bahrain"
+            "page_url": "/destinations/africa/libya"
         },
-        "BG": {
+        "MA": {
             "country": {
-                "name": "Bulgaria",
-                "alpha_2": "BG"
+                "name": "Morocco",
+                "alpha_2": "MA"
             },
-            "page_url": "/destinations/europe/bulgaria"
+            "page_url": "/destinations/africa/morocco"
         },
-        "ZW": {
+        "MD": {
             "country": {
-                "name": "Zimbabwe",
-                "alpha_2": "ZW"
+                "name": "Moldova, Republic of",
+                "alpha_2": "MD"
             },
-            "page_url": "/destinations/africa/zimbabwe"
+            "page_url": "/destinations/europe/moldova"
         },
-        "TH": {
+        "ME": {
             "country": {
-                "name": "Thailand",
-                "alpha_2": "TH"
+                "name": "Montenegro",
+                "alpha_2": "ME"
             },
-            "page_url": "/destinations/asia/thailand"
+            "page_url": "/destinations/europe/montenegro"
         },
-        "IS": {
+        "MG": {
             "country": {
-                "name": "Iceland",
-                "alpha_2": "IS"
+                "name": "Madagascar",
+                "alpha_2": "MG"
             },
-            "page_url": "/destinations/europe/iceland"
+            "page_url": "/destinations/africa/madagascar"
         },
-        "RO": {
+        "MH": {
             "country": {
-                "name": "Romania",
-                "alpha_2": "RO"
+                "name": "Marshall Islands",
+                "alpha_2": "MH"
             },
-            "page_url": "/destinations/europe/romania"
+            "page_url": "/destinations/pacific/marshall-islands"
         },
-        "SY": {
+        "MK": {
             "country": {
-                "name": "Syrian Arab Republic",
-                "alpha_2": "SY"
+                "name": "North Macedonia",
+                "alpha_2": "MK"
             },
-            "page_url": "/destinations/middle-east/syria"
+            "page_url": "/destinations/europe/north-macedonia"
         },
-        "TZ": {
+        "ML": {
             "country": {
-                "name": "Tanzania, United Republic of",
-                "alpha_2": "TZ"
+                "name": "Mali",
+                "alpha_2": "ML"
             },
-            "page_url": "/destinations/africa/tanzania"
+            "page_url": "/destinations/africa/mali"
         },
-        "DE": {
+        "MM": {
             "country": {
-                "name": "Germany",
-                "alpha_2": "DE"
+                "name": "Myanmar",
+                "alpha_2": "MM"
             },
-            "page_url": "/destinations/europe/germany"
+            "page_url": "/destinations/asia/myanmar"
         },
-        "ZA": {
+        "MN": {
             "country": {
-                "name": "South Africa",
-                "alpha_2": "ZA"
+                "name": "Mongolia",
+                "alpha_2": "MN"
             },
-            "page_url": "/destinations/africa/south-africa"
+            "page_url": "/destinations/asia/mongolia"
         },
-        "NL": {
+        "MO": {
             "country": {
-                "name": "Netherlands",
-                "alpha_2": "NL"
+                "name": "Macao",
+                "alpha_2": "MO"
             },
-            "page_url": "/destinations/europe/netherlands"
+            "page_url": "/destinations/asia/macau"
         },
-        "CZ": {
+        "MR": {
             "country": {
-                "name": "Czechia",
-                "alpha_2": "CZ"
+                "name": "Mauritania",
+                "alpha_2": "MR"
             },
-            "page_url": "/destinations/europe/czech-republic"
+            "page_url": "/destinations/africa/mauritania"
         },
-        "AT": {
+        "MT": {
             "country": {
-                "name": "Austria",
-                "alpha_2": "AT"
+                "name": "Malta",
+                "alpha_2": "MT"
             },
-            "page_url": "/destinations/europe/austria"
+            "page_url": "/destinations/europe/malta"
         },
-        "CO": {
+        "MU": {
             "country": {
-                "name": "Colombia",
-                "alpha_2": "CO"
+                "name": "Mauritius",
+                "alpha_2": "MU"
             },
-            "page_url": "/destinations/americas/colombia"
+            "page_url": "/destinations/africa/mauritius"
         },
-        "SE": {
+        "MV": {
             "country": {
-                "name": "Sweden",
-                "alpha_2": "SE"
+                "name": "Maldives",
+                "alpha_2": "MV"
             },
-            "page_url": "/destinations/europe/sweden"
+            "page_url": "/destinations/asia/maldives"
+        },
+        "MW": {
+            "country": {
+                "name": "Malawi",
+                "alpha_2": "MW"
+            },
+            "page_url": "/destinations/africa/malawi"
+        },
+        "MX": {
+            "country": {
+                "name": "Mexico",
+                "alpha_2": "MX"
+            },
+            "page_url": "/destinations/americas/mexico"
+        },
+        "MY": {
+            "country": {
+                "name": "Malaysia",
+                "alpha_2": "MY"
+            },
+            "page_url": "/destinations/asia/malaysia"
         },
         "MZ": {
             "country": {
@@ -155,131 +785,12 @@
             },
             "page_url": "/destinations/africa/mozambique"
         },
-        "PL": {
+        "NA": {
             "country": {
-                "name": "Poland",
-                "alpha_2": "PL"
+                "name": "Namibia",
+                "alpha_2": "NA"
             },
-            "page_url": "/destinations/europe/poland"
-        },
-        "SA": {
-            "country": {
-                "name": "Saudi Arabia",
-                "alpha_2": "SA"
-            },
-            "page_url": "/destinations/middle-east/saudi-arabia"
-        },
-        "TR": {
-            "country": {
-                "name": "T\u00fcrkiye",
-                "alpha_2": "TR"
-            },
-            "page_url": "/destinations/europe/turkiye"
-        },
-        "QA": {
-            "country": {
-                "name": "Qatar",
-                "alpha_2": "QA"
-            },
-            "page_url": "/destinations/middle-east/qatar"
-        },
-        "OM": {
-            "country": {
-                "name": "Oman",
-                "alpha_2": "OM"
-            },
-            "page_url": "/destinations/middle-east/oman"
-        },
-        "KW": {
-            "country": {
-                "name": "Kuwait",
-                "alpha_2": "KW"
-            },
-            "page_url": "/destinations/middle-east/kuwait"
-        },
-        "AE": {
-            "country": {
-                "name": "United Arab Emirates",
-                "alpha_2": "AE"
-            },
-            "page_url": "/destinations/middle-east/united-arab-emirates"
-        },
-        "IQ": {
-            "country": {
-                "name": "Iraq",
-                "alpha_2": "IQ"
-            },
-            "page_url": "/destinations/middle-east/iraq"
-        },
-        "YE": {
-            "country": {
-                "name": "Yemen",
-                "alpha_2": "YE"
-            },
-            "page_url": "/destinations/middle-east/yemen"
-        },
-        "EG": {
-            "country": {
-                "name": "Egypt",
-                "alpha_2": "EG"
-            },
-            "page_url": "/destinations/africa/egypt"
-        },
-        "NP": {
-            "country": {
-                "name": "Nepal",
-                "alpha_2": "NP"
-            },
-            "page_url": "/destinations/asia/nepal"
-        },
-        "PS": {
-            "country": {
-                "name": "Palestine, State of",
-                "alpha_2": "PS"
-            },
-            "page_url": "/destinations/middle-east/israel-and-occupied-palestinian-territories"
-        },
-        "IL": {
-            "country": {
-                "name": "Israel",
-                "alpha_2": "IL"
-            },
-            "page_url": "/destinations/middle-east/israel-and-occupied-palestinian-territories"
-        },
-        "BR": {
-            "country": {
-                "name": "Brazil",
-                "alpha_2": "BR"
-            },
-            "page_url": "/destinations/americas/brazil"
-        },
-        "IE": {
-            "country": {
-                "name": "Ireland",
-                "alpha_2": "IE"
-            },
-            "page_url": "/destinations/europe/ireland"
-        },
-        "EC": {
-            "country": {
-                "name": "Ecuador",
-                "alpha_2": "EC"
-            },
-            "page_url": "/destinations/americas/ecuador"
-        },
-        "HU": {
-            "country": {
-                "name": "Hungary",
-                "alpha_2": "HU"
-            },
-            "page_url": "/destinations/europe/hungary"
-        },
-        "BW": {
-            "country": {
-                "name": "Botswana",
-                "alpha_2": "BW"
-            },
-            "page_url": "/destinations/africa/botswana"
+            "page_url": "/destinations/africa/namibia"
         },
         "NC": {
             "country": {
@@ -295,538 +806,6 @@
             },
             "page_url": "/destinations/africa/niger"
         },
-        "BD": {
-            "country": {
-                "name": "Bangladesh",
-                "alpha_2": "BD"
-            },
-            "page_url": "/destinations/asia/bangladesh"
-        },
-        "CI": {
-            "country": {
-                "name": "C\u00f4te d'Ivoire",
-                "alpha_2": "CI"
-            },
-            "page_url": "/destinations/africa/cote-divoire-ivory-coast"
-        },
-        "JP": {
-            "country": {
-                "name": "Japan",
-                "alpha_2": "JP"
-            },
-            "page_url": "/destinations/asia/japan"
-        },
-        "BF": {
-            "country": {
-                "name": "Burkina Faso",
-                "alpha_2": "BF"
-            },
-            "page_url": "/destinations/africa/burkina-faso"
-        },
-        "BO": {
-            "country": {
-                "name": "Bolivia, Plurinational State of",
-                "alpha_2": "BO"
-            },
-            "page_url": "/destinations/americas/bolivia"
-        },
-        "PE": {
-            "country": {
-                "name": "Peru",
-                "alpha_2": "PE"
-            },
-            "page_url": "/destinations/americas/peru"
-        },
-        "MT": {
-            "country": {
-                "name": "Malta",
-                "alpha_2": "MT"
-            },
-            "page_url": "/destinations/europe/malta"
-        },
-        "ID": {
-            "country": {
-                "name": "Indonesia",
-                "alpha_2": "ID"
-            },
-            "page_url": "/destinations/asia/indonesia"
-        },
-        "MG": {
-            "country": {
-                "name": "Madagascar",
-                "alpha_2": "MG"
-            },
-            "page_url": "/destinations/africa/madagascar"
-        },
-        "PG": {
-            "country": {
-                "name": "Papua New Guinea",
-                "alpha_2": "PG"
-            },
-            "page_url": "/destinations/pacific/papua-new-guinea"
-        },
-        "ML": {
-            "country": {
-                "name": "Mali",
-                "alpha_2": "ML"
-            },
-            "page_url": "/destinations/africa/mali"
-        },
-        "NZ": {
-            "country": {
-                "name": "New Zealand",
-                "alpha_2": "NZ"
-            },
-            "page_url": "/destinations/pacific/new-zealand"
-        },
-        "VN": {
-            "country": {
-                "name": "Viet Nam",
-                "alpha_2": "VN"
-            },
-            "page_url": "/destinations/asia/vietnam"
-        },
-        "SS": {
-            "country": {
-                "name": "South Sudan",
-                "alpha_2": "SS"
-            },
-            "page_url": "/destinations/africa/south-sudan"
-        },
-        "SK": {
-            "country": {
-                "name": "Slovakia",
-                "alpha_2": "SK"
-            },
-            "page_url": "/destinations/europe/slovakia"
-        },
-        "TN": {
-            "country": {
-                "name": "Tunisia",
-                "alpha_2": "TN"
-            },
-            "page_url": "/destinations/africa/tunisia"
-        },
-        "KE": {
-            "country": {
-                "name": "Kenya",
-                "alpha_2": "KE"
-            },
-            "page_url": "/destinations/africa/kenya"
-        },
-        "DO": {
-            "country": {
-                "name": "Dominican Republic",
-                "alpha_2": "DO"
-            },
-            "page_url": "/destinations/americas/dominican-republic"
-        },
-        "MM": {
-            "country": {
-                "name": "Myanmar",
-                "alpha_2": "MM"
-            },
-            "page_url": "/destinations/asia/myanmar"
-        },
-        "PA": {
-            "country": {
-                "name": "Panama",
-                "alpha_2": "PA"
-            },
-            "page_url": "/destinations/americas/panama"
-        },
-        "FJ": {
-            "country": {
-                "name": "Fiji",
-                "alpha_2": "FJ"
-            },
-            "page_url": "/destinations/pacific/fiji"
-        },
-        "LA": {
-            "country": {
-                "name": "Lao People's Democratic Republic",
-                "alpha_2": "LA"
-            },
-            "page_url": "/destinations/asia/laos"
-        },
-        "US": {
-            "country": {
-                "name": "United States",
-                "alpha_2": "US"
-            },
-            "page_url": "/destinations/americas/united-states-america"
-        },
-        "TL": {
-            "country": {
-                "name": "Timor-Leste",
-                "alpha_2": "TL"
-            },
-            "page_url": "/destinations/asia/timor-leste"
-        },
-        "BN": {
-            "country": {
-                "name": "Brunei Darussalam",
-                "alpha_2": "BN"
-            },
-            "page_url": "/destinations/asia/brunei-darussalam"
-        },
-        "PH": {
-            "country": {
-                "name": "Philippines",
-                "alpha_2": "PH"
-            },
-            "page_url": "/destinations/asia/philippines"
-        },
-        "PF": {
-            "country": {
-                "name": "French Polynesia",
-                "alpha_2": "PF"
-            },
-            "page_url": "/destinations/pacific/french-polynesia"
-        },
-        "TO": {
-            "country": {
-                "name": "Tonga",
-                "alpha_2": "TO"
-            },
-            "page_url": "/destinations/pacific/tonga"
-        },
-        "FR": {
-            "country": {
-                "name": "France",
-                "alpha_2": "FR"
-            },
-            "page_url": "/destinations/europe/france"
-        },
-        "SC": {
-            "country": {
-                "name": "Seychelles",
-                "alpha_2": "SC"
-            },
-            "page_url": "/destinations/africa/seychelles"
-        },
-        "CN": {
-            "country": {
-                "name": "China",
-                "alpha_2": "CN"
-            },
-            "page_url": "/destinations/asia/china"
-        },
-        "VU": {
-            "country": {
-                "name": "Vanuatu",
-                "alpha_2": "VU"
-            },
-            "page_url": "/destinations/pacific/vanuatu"
-        },
-        "MD": {
-            "country": {
-                "name": "Moldova, Republic of",
-                "alpha_2": "MD"
-            },
-            "page_url": "/destinations/europe/moldova"
-        },
-        "GB": {
-            "country": {
-                "name": "United Kingdom",
-                "alpha_2": "GB"
-            },
-            "page_url": "/destinations/europe/united-kingdom"
-        },
-        "PK": {
-            "country": {
-                "name": "Pakistan",
-                "alpha_2": "PK"
-            },
-            "page_url": "/destinations/asia/pakistan"
-        },
-        "WS": {
-            "country": {
-                "name": "Samoa",
-                "alpha_2": "WS"
-            },
-            "page_url": "/destinations/pacific/samoa"
-        },
-        "UA": {
-            "country": {
-                "name": "Ukraine",
-                "alpha_2": "UA"
-            },
-            "page_url": "/destinations/europe/ukraine"
-        },
-        "CM": {
-            "country": {
-                "name": "Cameroon",
-                "alpha_2": "CM"
-            },
-            "page_url": "/destinations/africa/cameroon"
-        },
-        "AL": {
-            "country": {
-                "name": "Albania",
-                "alpha_2": "AL"
-            },
-            "page_url": "/destinations/europe/albania"
-        },
-        "UG": {
-            "country": {
-                "name": "Uganda",
-                "alpha_2": "UG"
-            },
-            "page_url": "/destinations/africa/uganda"
-        },
-        "BI": {
-            "country": {
-                "name": "Burundi",
-                "alpha_2": "BI"
-            },
-            "page_url": "/destinations/africa/burundi"
-        },
-        "MV": {
-            "country": {
-                "name": "Maldives",
-                "alpha_2": "MV"
-            },
-            "page_url": "/destinations/asia/maldives"
-        },
-        "CD": {
-            "country": {
-                "name": "Congo, The Democratic Republic of the",
-                "alpha_2": "CD"
-            },
-            "page_url": "/destinations/africa/democratic-republic-congo"
-        },
-        "LR": {
-            "country": {
-                "name": "Liberia",
-                "alpha_2": "LR"
-            },
-            "page_url": "/destinations/africa/liberia"
-        },
-        "CF": {
-            "country": {
-                "name": "Central African Republic",
-                "alpha_2": "CF"
-            },
-            "page_url": "/destinations/africa/central-african-republic"
-        },
-        "GH": {
-            "country": {
-                "name": "Ghana",
-                "alpha_2": "GH"
-            },
-            "page_url": "/destinations/africa/ghana"
-        },
-        "CU": {
-            "country": {
-                "name": "Cuba",
-                "alpha_2": "CU"
-            },
-            "page_url": "/destinations/americas/cuba"
-        },
-        "MN": {
-            "country": {
-                "name": "Mongolia",
-                "alpha_2": "MN"
-            },
-            "page_url": "/destinations/asia/mongolia"
-        },
-        "CA": {
-            "country": {
-                "name": "Canada",
-                "alpha_2": "CA"
-            },
-            "page_url": "/destinations/americas/canada"
-        },
-        "AR": {
-            "country": {
-                "name": "Argentina",
-                "alpha_2": "AR"
-            },
-            "page_url": "/destinations/americas/argentina"
-        },
-        "DJ": {
-            "country": {
-                "name": "Djibouti",
-                "alpha_2": "DJ"
-            },
-            "page_url": "/destinations/africa/djibouti"
-        },
-        "VE": {
-            "country": {
-                "name": "Venezuela, Bolivarian Republic of",
-                "alpha_2": "VE"
-            },
-            "page_url": "/destinations/americas/venezuela"
-        },
-        "BA": {
-            "country": {
-                "name": "Bosnia and Herzegovina",
-                "alpha_2": "BA"
-            },
-            "page_url": "/destinations/europe/bosnia-and-herzegovina"
-        },
-        "KZ": {
-            "country": {
-                "name": "Kazakhstan",
-                "alpha_2": "KZ"
-            },
-            "page_url": "/destinations/asia/kazakhstan"
-        },
-        "RS": {
-            "country": {
-                "name": "Serbia",
-                "alpha_2": "RS"
-            },
-            "page_url": "/destinations/europe/kosovo"
-        },
-        "CK": {
-            "country": {
-                "name": "Cook Islands",
-                "alpha_2": "CK"
-            },
-            "page_url": "/destinations/pacific/cook-islands"
-        },
-        "TJ": {
-            "country": {
-                "name": "Tajikistan",
-                "alpha_2": "TJ"
-            },
-            "page_url": "/destinations/asia/tajikistan"
-        },
-        "GM": {
-            "country": {
-                "name": "Gambia",
-                "alpha_2": "GM"
-            },
-            "page_url": "/destinations/africa/gambia"
-        },
-        "HN": {
-            "country": {
-                "name": "Honduras",
-                "alpha_2": "HN"
-            },
-            "page_url": "/destinations/americas/honduras"
-        },
-        "LV": {
-            "country": {
-                "name": "Latvia",
-                "alpha_2": "LV"
-            },
-            "page_url": "/destinations/europe/latvia"
-        },
-        "UZ": {
-            "country": {
-                "name": "Uzbekistan",
-                "alpha_2": "UZ"
-            },
-            "page_url": "/destinations/asia/uzbekistan"
-        },
-        "AF": {
-            "country": {
-                "name": "Afghanistan",
-                "alpha_2": "AF"
-            },
-            "page_url": "/destinations/asia/afghanistan"
-        },
-        "HK": {
-            "country": {
-                "name": "Hong Kong",
-                "alpha_2": "HK"
-            },
-            "page_url": "/destinations/asia/hong-kong"
-        },
-        "ET": {
-            "country": {
-                "name": "Ethiopia",
-                "alpha_2": "ET"
-            },
-            "page_url": "/destinations/africa/ethiopia"
-        },
-        "RU": {
-            "country": {
-                "name": "Russian Federation",
-                "alpha_2": "RU"
-            },
-            "page_url": "/destinations/europe/russia"
-        },
-        "ES": {
-            "country": {
-                "name": "Spain",
-                "alpha_2": "ES"
-            },
-            "page_url": "/destinations/europe/spain"
-        },
-        "JM": {
-            "country": {
-                "name": "Jamaica",
-                "alpha_2": "JM"
-            },
-            "page_url": "/destinations/americas/jamaica"
-        },
-        "MX": {
-            "country": {
-                "name": "Mexico",
-                "alpha_2": "MX"
-            },
-            "page_url": "/destinations/americas/mexico"
-        },
-        "KH": {
-            "country": {
-                "name": "Cambodia",
-                "alpha_2": "KH"
-            },
-            "page_url": "/destinations/asia/cambodia"
-        },
-        "HT": {
-            "country": {
-                "name": "Haiti",
-                "alpha_2": "HT"
-            },
-            "page_url": "/destinations/americas/haiti"
-        },
-        "MU": {
-            "country": {
-                "name": "Mauritius",
-                "alpha_2": "MU"
-            },
-            "page_url": "/destinations/africa/mauritius"
-        },
-        "GN": {
-            "country": {
-                "name": "Guinea",
-                "alpha_2": "GN"
-            },
-            "page_url": "/destinations/africa/guinea"
-        },
-        "MO": {
-            "country": {
-                "name": "Macao",
-                "alpha_2": "MO"
-            },
-            "page_url": "/destinations/asia/macau"
-        },
-        "TT": {
-            "country": {
-                "name": "Trinidad and Tobago",
-                "alpha_2": "TT"
-            },
-            "page_url": "/destinations/americas/trinidad-and-tobago"
-        },
-        "GR": {
-            "country": {
-                "name": "Greece",
-                "alpha_2": "GR"
-            },
-            "page_url": "/destinations/europe/greece"
-        },
-        "AZ": {
-            "country": {
-                "name": "Azerbaijan",
-                "alpha_2": "AZ"
-            },
-            "page_url": "/destinations/europe/azerbaijan"
-        },
         "NI": {
             "country": {
                 "name": "Nicaragua",
@@ -834,397 +813,12 @@
             },
             "page_url": "/destinations/americas/nicaragua"
         },
-        "CY": {
+        "NL": {
             "country": {
-                "name": "Cyprus",
-                "alpha_2": "CY"
+                "name": "Netherlands",
+                "alpha_2": "NL"
             },
-            "page_url": "/destinations/europe/cyprus"
-        },
-        "IN": {
-            "country": {
-                "name": "India",
-                "alpha_2": "IN"
-            },
-            "page_url": "/destinations/asia/india"
-        },
-        "SI": {
-            "country": {
-                "name": "Slovenia",
-                "alpha_2": "SI"
-            },
-            "page_url": "/destinations/europe/slovenia"
-        },
-        "KR": {
-            "country": {
-                "name": "Korea, Republic of",
-                "alpha_2": "KR"
-            },
-            "page_url": "/destinations/asia/south-korea-republic-korea"
-        },
-        "SB": {
-            "country": {
-                "name": "Solomon Islands",
-                "alpha_2": "SB"
-            },
-            "page_url": "/destinations/pacific/solomon-islands"
-        },
-        "BZ": {
-            "country": {
-                "name": "Belize",
-                "alpha_2": "BZ"
-            },
-            "page_url": "/destinations/americas/belize"
-        },
-        "MY": {
-            "country": {
-                "name": "Malaysia",
-                "alpha_2": "MY"
-            },
-            "page_url": "/destinations/asia/malaysia"
-        },
-        "BE": {
-            "country": {
-                "name": "Belgium",
-                "alpha_2": "BE"
-            },
-            "page_url": "/destinations/europe/belgium"
-        },
-        "SD": {
-            "country": {
-                "name": "Sudan",
-                "alpha_2": "SD"
-            },
-            "page_url": "/destinations/africa/sudan"
-        },
-        "TM": {
-            "country": {
-                "name": "Turkmenistan",
-                "alpha_2": "TM"
-            },
-            "page_url": "/destinations/asia/turkmenistan"
-        },
-        "SO": {
-            "country": {
-                "name": "Somalia",
-                "alpha_2": "SO"
-            },
-            "page_url": "/destinations/africa/somalia"
-        },
-        "TD": {
-            "country": {
-                "name": "Chad",
-                "alpha_2": "TD"
-            },
-            "page_url": "/destinations/africa/chad"
-        },
-        "CL": {
-            "country": {
-                "name": "Chile",
-                "alpha_2": "CL"
-            },
-            "page_url": "/destinations/americas/chile"
-        },
-        "LS": {
-            "country": {
-                "name": "Lesotho",
-                "alpha_2": "LS"
-            },
-            "page_url": "/destinations/africa/lesotho"
-        },
-        "SL": {
-            "country": {
-                "name": "Sierra Leone",
-                "alpha_2": "SL"
-            },
-            "page_url": "/destinations/africa/sierra-leone"
-        },
-        "GY": {
-            "country": {
-                "name": "Guyana",
-                "alpha_2": "GY"
-            },
-            "page_url": "/destinations/americas/guyana"
-        },
-        "PW": {
-            "country": {
-                "name": "Palau",
-                "alpha_2": "PW"
-            },
-            "page_url": "/destinations/pacific/palau"
-        },
-        "SG": {
-            "country": {
-                "name": "Singapore",
-                "alpha_2": "SG"
-            },
-            "page_url": "/destinations/asia/singapore"
-        },
-        "CH": {
-            "country": {
-                "name": "Switzerland",
-                "alpha_2": "CH"
-            },
-            "page_url": "/destinations/europe/switzerland"
-        },
-        "GU": {
-            "country": {
-                "name": "Guam",
-                "alpha_2": "GU"
-            },
-            "page_url": "/destinations/pacific/guam"
-        },
-        "NU": {
-            "country": {
-                "name": "Niue",
-                "alpha_2": "NU"
-            },
-            "page_url": "/destinations/pacific/niue"
-        },
-        "KG": {
-            "country": {
-                "name": "Kyrgyzstan",
-                "alpha_2": "KG"
-            },
-            "page_url": "/destinations/asia/kyrgyz-republic"
-        },
-        "MA": {
-            "country": {
-                "name": "Morocco",
-                "alpha_2": "MA"
-            },
-            "page_url": "/destinations/africa/morocco"
-        },
-        "BT": {
-            "country": {
-                "name": "Bhutan",
-                "alpha_2": "BT"
-            },
-            "page_url": "/destinations/asia/bhutan"
-        },
-        "SN": {
-            "country": {
-                "name": "Senegal",
-                "alpha_2": "SN"
-            },
-            "page_url": "/destinations/africa/senegal"
-        },
-        "BJ": {
-            "country": {
-                "name": "Benin",
-                "alpha_2": "BJ"
-            },
-            "page_url": "/destinations/africa/benin"
-        },
-        "DZ": {
-            "country": {
-                "name": "Algeria",
-                "alpha_2": "DZ"
-            },
-            "page_url": "/destinations/africa/algeria"
-        },
-        "MH": {
-            "country": {
-                "name": "Marshall Islands",
-                "alpha_2": "MH"
-            },
-            "page_url": "/destinations/pacific/marshall-islands"
-        },
-        "SZ": {
-            "country": {
-                "name": "Eswatini",
-                "alpha_2": "SZ"
-            },
-            "page_url": "/destinations/africa/eswatini"
-        },
-        "LT": {
-            "country": {
-                "name": "Lithuania",
-                "alpha_2": "LT"
-            },
-            "page_url": "/destinations/europe/lithuania"
-        },
-        "PT": {
-            "country": {
-                "name": "Portugal",
-                "alpha_2": "PT"
-            },
-            "page_url": "/destinations/europe/portugal"
-        },
-        "AO": {
-            "country": {
-                "name": "Angola",
-                "alpha_2": "AO"
-            },
-            "page_url": "/destinations/africa/angola"
-        },
-        "LY": {
-            "country": {
-                "name": "Libya",
-                "alpha_2": "LY"
-            },
-            "page_url": "/destinations/africa/libya"
-        },
-        "PY": {
-            "country": {
-                "name": "Paraguay",
-                "alpha_2": "PY"
-            },
-            "page_url": "/destinations/americas/paraguay"
-        },
-        "AM": {
-            "country": {
-                "name": "Armenia",
-                "alpha_2": "AM"
-            },
-            "page_url": "/destinations/europe/armenia"
-        },
-        "UY": {
-            "country": {
-                "name": "Uruguay",
-                "alpha_2": "UY"
-            },
-            "page_url": "/destinations/americas/uruguay"
-        },
-        "FI": {
-            "country": {
-                "name": "Finland",
-                "alpha_2": "FI"
-            },
-            "page_url": "/destinations/europe/finland"
-        },
-        "CR": {
-            "country": {
-                "name": "Costa Rica",
-                "alpha_2": "CR"
-            },
-            "page_url": "/destinations/americas/costa-rica"
-        },
-        "KP": {
-            "country": {
-                "name": "Korea, Democratic People's Republic of",
-                "alpha_2": "KP"
-            },
-            "page_url": "/destinations/asia/north-korea-democratic-peoples-republic-korea"
-        },
-        "GT": {
-            "country": {
-                "name": "Guatemala",
-                "alpha_2": "GT"
-            },
-            "page_url": "/destinations/americas/guatemala"
-        },
-        "GA": {
-            "country": {
-                "name": "Gabon",
-                "alpha_2": "GA"
-            },
-            "page_url": "/destinations/africa/gabon"
-        },
-        "BS": {
-            "country": {
-                "name": "Bahamas",
-                "alpha_2": "BS"
-            },
-            "page_url": "/destinations/americas/bahamas"
-        },
-        "SV": {
-            "country": {
-                "name": "El Salvador",
-                "alpha_2": "SV"
-            },
-            "page_url": "/destinations/americas/el-salvador"
-        },
-        "DK": {
-            "country": {
-                "name": "Denmark",
-                "alpha_2": "DK"
-            },
-            "page_url": "/destinations/europe/denmark"
-        },
-        "MW": {
-            "country": {
-                "name": "Malawi",
-                "alpha_2": "MW"
-            },
-            "page_url": "/destinations/africa/malawi"
-        },
-        "MR": {
-            "country": {
-                "name": "Mauritania",
-                "alpha_2": "MR"
-            },
-            "page_url": "/destinations/africa/mauritania"
-        },
-        "MK": {
-            "country": {
-                "name": "North Macedonia",
-                "alpha_2": "MK"
-            },
-            "page_url": "/destinations/europe/north-macedonia"
-        },
-        "EE": {
-            "country": {
-                "name": "Estonia",
-                "alpha_2": "EE"
-            },
-            "page_url": "/destinations/europe/estonia"
-        },
-        "FM": {
-            "country": {
-                "name": "Micronesia, Federated States of",
-                "alpha_2": "FM"
-            },
-            "page_url": "/destinations/pacific/federated-states-micronesia"
-        },
-        "ER": {
-            "country": {
-                "name": "Eritrea",
-                "alpha_2": "ER"
-            },
-            "page_url": "/destinations/africa/eritrea"
-        },
-        "IT": {
-            "country": {
-                "name": "Italy",
-                "alpha_2": "IT"
-            },
-            "page_url": "/destinations/europe/italy"
-        },
-        "ZM": {
-            "country": {
-                "name": "Zambia",
-                "alpha_2": "ZM"
-            },
-            "page_url": "/destinations/africa/zambia"
-        },
-        "GE": {
-            "country": {
-                "name": "Georgia",
-                "alpha_2": "GE"
-            },
-            "page_url": "/destinations/europe/georgia"
-        },
-        "HR": {
-            "country": {
-                "name": "Croatia",
-                "alpha_2": "HR"
-            },
-            "page_url": "/destinations/europe/croatia"
-        },
-        "BY": {
-            "country": {
-                "name": "Belarus",
-                "alpha_2": "BY"
-            },
-            "page_url": "/destinations/europe/belarus"
-        },
-        "NA": {
-            "country": {
-                "name": "Namibia",
-                "alpha_2": "NA"
-            },
-            "page_url": "/destinations/africa/namibia"
+            "page_url": "/destinations/europe/netherlands"
         },
         "NO": {
             "country": {
@@ -1233,12 +827,418 @@
             },
             "page_url": "/destinations/europe/norway"
         },
-        "ME": {
+        "NP": {
             "country": {
-                "name": "Montenegro",
-                "alpha_2": "ME"
+                "name": "Nepal",
+                "alpha_2": "NP"
             },
-            "page_url": "/destinations/europe/montenegro"
+            "page_url": "/destinations/asia/nepal"
+        },
+        "NU": {
+            "country": {
+                "name": "Niue",
+                "alpha_2": "NU"
+            },
+            "page_url": "/destinations/pacific/niue"
+        },
+        "NZ": {
+            "country": {
+                "name": "New Zealand",
+                "alpha_2": "NZ"
+            },
+            "page_url": "/destinations/pacific/new-zealand"
+        },
+        "OM": {
+            "country": {
+                "name": "Oman",
+                "alpha_2": "OM"
+            },
+            "page_url": "/destinations/middle-east/oman"
+        },
+        "PA": {
+            "country": {
+                "name": "Panama",
+                "alpha_2": "PA"
+            },
+            "page_url": "/destinations/americas/panama"
+        },
+        "PE": {
+            "country": {
+                "name": "Peru",
+                "alpha_2": "PE"
+            },
+            "page_url": "/destinations/americas/peru"
+        },
+        "PF": {
+            "country": {
+                "name": "French Polynesia",
+                "alpha_2": "PF"
+            },
+            "page_url": "/destinations/pacific/french-polynesia"
+        },
+        "PG": {
+            "country": {
+                "name": "Papua New Guinea",
+                "alpha_2": "PG"
+            },
+            "page_url": "/destinations/pacific/papua-new-guinea"
+        },
+        "PH": {
+            "country": {
+                "name": "Philippines",
+                "alpha_2": "PH"
+            },
+            "page_url": "/destinations/asia/philippines"
+        },
+        "PK": {
+            "country": {
+                "name": "Pakistan",
+                "alpha_2": "PK"
+            },
+            "page_url": "/destinations/asia/pakistan"
+        },
+        "PL": {
+            "country": {
+                "name": "Poland",
+                "alpha_2": "PL"
+            },
+            "page_url": "/destinations/europe/poland"
+        },
+        "PS": {
+            "country": {
+                "name": "Palestine, State of",
+                "alpha_2": "PS"
+            },
+            "page_url": "/destinations/middle-east/israel-and-occupied-palestinian-territories"
+        },
+        "PT": {
+            "country": {
+                "name": "Portugal",
+                "alpha_2": "PT"
+            },
+            "page_url": "/destinations/europe/portugal"
+        },
+        "PW": {
+            "country": {
+                "name": "Palau",
+                "alpha_2": "PW"
+            },
+            "page_url": "/destinations/pacific/palau"
+        },
+        "PY": {
+            "country": {
+                "name": "Paraguay",
+                "alpha_2": "PY"
+            },
+            "page_url": "/destinations/americas/paraguay"
+        },
+        "QA": {
+            "country": {
+                "name": "Qatar",
+                "alpha_2": "QA"
+            },
+            "page_url": "/destinations/middle-east/qatar"
+        },
+        "RO": {
+            "country": {
+                "name": "Romania",
+                "alpha_2": "RO"
+            },
+            "page_url": "/destinations/europe/romania"
+        },
+        "RS": {
+            "country": {
+                "name": "Serbia",
+                "alpha_2": "RS"
+            },
+            "page_url": "/destinations/europe/kosovo"
+        },
+        "RU": {
+            "country": {
+                "name": "Russian Federation",
+                "alpha_2": "RU"
+            },
+            "page_url": "/destinations/europe/russia"
+        },
+        "RW": {
+            "country": {
+                "name": "Rwanda",
+                "alpha_2": "RW"
+            },
+            "page_url": "/destinations/africa/rwanda"
+        },
+        "SA": {
+            "country": {
+                "name": "Saudi Arabia",
+                "alpha_2": "SA"
+            },
+            "page_url": "/destinations/middle-east/saudi-arabia"
+        },
+        "SB": {
+            "country": {
+                "name": "Solomon Islands",
+                "alpha_2": "SB"
+            },
+            "page_url": "/destinations/pacific/solomon-islands"
+        },
+        "SC": {
+            "country": {
+                "name": "Seychelles",
+                "alpha_2": "SC"
+            },
+            "page_url": "/destinations/africa/seychelles"
+        },
+        "SD": {
+            "country": {
+                "name": "Sudan",
+                "alpha_2": "SD"
+            },
+            "page_url": "/destinations/africa/sudan"
+        },
+        "SE": {
+            "country": {
+                "name": "Sweden",
+                "alpha_2": "SE"
+            },
+            "page_url": "/destinations/europe/sweden"
+        },
+        "SG": {
+            "country": {
+                "name": "Singapore",
+                "alpha_2": "SG"
+            },
+            "page_url": "/destinations/asia/singapore"
+        },
+        "SI": {
+            "country": {
+                "name": "Slovenia",
+                "alpha_2": "SI"
+            },
+            "page_url": "/destinations/europe/slovenia"
+        },
+        "SK": {
+            "country": {
+                "name": "Slovakia",
+                "alpha_2": "SK"
+            },
+            "page_url": "/destinations/europe/slovakia"
+        },
+        "SL": {
+            "country": {
+                "name": "Sierra Leone",
+                "alpha_2": "SL"
+            },
+            "page_url": "/destinations/africa/sierra-leone"
+        },
+        "SN": {
+            "country": {
+                "name": "Senegal",
+                "alpha_2": "SN"
+            },
+            "page_url": "/destinations/africa/senegal"
+        },
+        "SO": {
+            "country": {
+                "name": "Somalia",
+                "alpha_2": "SO"
+            },
+            "page_url": "/destinations/africa/somalia"
+        },
+        "SS": {
+            "country": {
+                "name": "South Sudan",
+                "alpha_2": "SS"
+            },
+            "page_url": "/destinations/africa/south-sudan"
+        },
+        "SV": {
+            "country": {
+                "name": "El Salvador",
+                "alpha_2": "SV"
+            },
+            "page_url": "/destinations/americas/el-salvador"
+        },
+        "SY": {
+            "country": {
+                "name": "Syrian Arab Republic",
+                "alpha_2": "SY"
+            },
+            "page_url": "/destinations/middle-east/syria"
+        },
+        "SZ": {
+            "country": {
+                "name": "Eswatini",
+                "alpha_2": "SZ"
+            },
+            "page_url": "/destinations/africa/eswatini"
+        },
+        "TD": {
+            "country": {
+                "name": "Chad",
+                "alpha_2": "TD"
+            },
+            "page_url": "/destinations/africa/chad"
+        },
+        "TH": {
+            "country": {
+                "name": "Thailand",
+                "alpha_2": "TH"
+            },
+            "page_url": "/destinations/asia/thailand"
+        },
+        "TJ": {
+            "country": {
+                "name": "Tajikistan",
+                "alpha_2": "TJ"
+            },
+            "page_url": "/destinations/asia/tajikistan"
+        },
+        "TL": {
+            "country": {
+                "name": "Timor-Leste",
+                "alpha_2": "TL"
+            },
+            "page_url": "/destinations/asia/timor-leste"
+        },
+        "TM": {
+            "country": {
+                "name": "Turkmenistan",
+                "alpha_2": "TM"
+            },
+            "page_url": "/destinations/asia/turkmenistan"
+        },
+        "TN": {
+            "country": {
+                "name": "Tunisia",
+                "alpha_2": "TN"
+            },
+            "page_url": "/destinations/africa/tunisia"
+        },
+        "TO": {
+            "country": {
+                "name": "Tonga",
+                "alpha_2": "TO"
+            },
+            "page_url": "/destinations/pacific/tonga"
+        },
+        "TR": {
+            "country": {
+                "name": "T\u00fcrkiye",
+                "alpha_2": "TR"
+            },
+            "page_url": "/destinations/europe/turkiye"
+        },
+        "TT": {
+            "country": {
+                "name": "Trinidad and Tobago",
+                "alpha_2": "TT"
+            },
+            "page_url": "/destinations/americas/trinidad-and-tobago"
+        },
+        "TW": {
+            "country": {
+                "name": "Taiwan, Province of China",
+                "alpha_2": "TW"
+            },
+            "page_url": "/destinations/asia/taiwan"
+        },
+        "TZ": {
+            "country": {
+                "name": "Tanzania, United Republic of",
+                "alpha_2": "TZ"
+            },
+            "page_url": "/destinations/africa/tanzania"
+        },
+        "UA": {
+            "country": {
+                "name": "Ukraine",
+                "alpha_2": "UA"
+            },
+            "page_url": "/destinations/europe/ukraine"
+        },
+        "UG": {
+            "country": {
+                "name": "Uganda",
+                "alpha_2": "UG"
+            },
+            "page_url": "/destinations/africa/uganda"
+        },
+        "US": {
+            "country": {
+                "name": "United States",
+                "alpha_2": "US"
+            },
+            "page_url": "/destinations/americas/united-states-america"
+        },
+        "UY": {
+            "country": {
+                "name": "Uruguay",
+                "alpha_2": "UY"
+            },
+            "page_url": "/destinations/americas/uruguay"
+        },
+        "UZ": {
+            "country": {
+                "name": "Uzbekistan",
+                "alpha_2": "UZ"
+            },
+            "page_url": "/destinations/asia/uzbekistan"
+        },
+        "VE": {
+            "country": {
+                "name": "Venezuela, Bolivarian Republic of",
+                "alpha_2": "VE"
+            },
+            "page_url": "/destinations/americas/venezuela"
+        },
+        "VN": {
+            "country": {
+                "name": "Viet Nam",
+                "alpha_2": "VN"
+            },
+            "page_url": "/destinations/asia/vietnam"
+        },
+        "VU": {
+            "country": {
+                "name": "Vanuatu",
+                "alpha_2": "VU"
+            },
+            "page_url": "/destinations/pacific/vanuatu"
+        },
+        "WS": {
+            "country": {
+                "name": "Samoa",
+                "alpha_2": "WS"
+            },
+            "page_url": "/destinations/pacific/samoa"
+        },
+        "YE": {
+            "country": {
+                "name": "Yemen",
+                "alpha_2": "YE"
+            },
+            "page_url": "/destinations/middle-east/yemen"
+        },
+        "ZA": {
+            "country": {
+                "name": "South Africa",
+                "alpha_2": "ZA"
+            },
+            "page_url": "/destinations/africa/south-africa"
+        },
+        "ZM": {
+            "country": {
+                "name": "Zambia",
+                "alpha_2": "ZM"
+            },
+            "page_url": "/destinations/africa/zambia"
+        },
+        "ZW": {
+            "country": {
+                "name": "Zimbabwe",
+                "alpha_2": "ZW"
+            },
+            "page_url": "/destinations/africa/zimbabwe"
         }
     }
 }
