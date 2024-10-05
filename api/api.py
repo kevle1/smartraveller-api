@@ -1,62 +1,64 @@
 import json
-import pycountry
-from flask import Flask, request, Response
-from flask_cors import CORS
-from api.smartraveller.advisory import get_overall_advisory
-import logging
+
+from flask import Flask, Response, request
+
+from smartraveller.advisory import get_advisory
 
 app = Flask(__name__, static_url_path="")
-CORS(app)
+
 
 @app.route("/")
-def index(): 
-    return '<h1>Smartraveller API</h1> \
-            <p>Smartraveller material accessed is provided under the latest Creative Commons Attribution licence.<p/> \
-            <a href="https://www.smartraveller.gov.au/">Smartraveller</a>'
+def index():
+    return '<h1>Unofficial Smartraveller API</h1> \
+            <p>Smartraveller material is provided under the latest Creative Commons Attribution licence.<p/> \
+            <a href="https://www.smartraveller.gov.au">Smartraveller</a>'
+
 
 @app.route("/advisory")
 def advisory():
-    country_query = request.args.get("country")
-    if country_query:
-        try:
-            country = pycountry.countries.lookup(country_query)
-        except Exception as e:
-            logging.error(e)
-            country = None
-        
-        if country is not None:
-            country_query = country.name.lower().replace(" ", "-")
-            logging.debug(f"Querying for country: {country_query}")
-            
-            advisory = get_overall_advisory(country_query)
-            
-            if advisory is None:
-                return "Smartraveller does not have published advisory for selected country", 404
-            
-            advisory["country"] = country.name
-            advisory["alpha_2"] = country.alpha_2
-            
-            if hasattr(country, "official_name"):
-                advisory["official_name"] = country.official_name
-            
-            response = Response(json.dumps(advisory))
-            response.headers["Cache-Control"] = "s-maxage=3600" # Vercel cache for 1 hour
-            response.headers["Content-Type"] = "application/json"
-            
-            return response
-        else:
-            return "Invalid country", 404
-    else:
-        return "Missing country query parameter", 400
+    iso_alpha_2 = request.args.get("country")
+    if not iso_alpha_2:
+        return _return_error("Missing country code", 400)
+
+    if len(iso_alpha_2) != 2 and not iso_alpha_2.isalpha():
+        return _return_error("Invalid country code", 400)
+
+    advisory = get_advisory(iso_alpha_2.upper())
+
+    if advisory is None:
+        return _return_error(
+            "Smartraveller does not have published advisory for selected country", 404
+        )
+
+    return _return_success(advisory.model_dump())
+
 
 @app.route("/advisories")
 def advisories():
-    advisories = None
-    with open("smartraveller-compounded.json", "r") as advisories:
-        json_advisories = json.load(advisories)
-    
-    response = Response(json.dumps(json_advisories))
-    response.headers["Cache-Control"] = "s-maxage=86400" # Vercel cache for 1 day
+    with open("data/advisories.json", "r") as advisories_file:
+        json_advisories = json.load(advisories_file)
+    return _return_success(json_advisories)
+
+
+@app.route("/destinations")
+def destinations():
+    with open("data/destinations.json", "r") as destinations_file:
+        destinations = json.load(destinations_file)
+    return _return_success(destinations)
+
+
+def _return_success(data: dict, cache_duration_min: int = 60) -> Response:
+    response = Response(json.dumps(data))
+
+    # https://vercel.com/docs/edge-network/caching
+    response.headers["Cache-Control"] = f"s-maxage={cache_duration_min*60}"
     response.headers["Content-Type"] = "application/json"
-    
+    response.headers["Access-Control-Allow-Origin"] = "*"
+
     return response
+
+
+def _return_error(message: str, status: int) -> Response:
+    return Response(
+        json.dumps({"error": message}), status=status, mimetype="application/json"
+    )

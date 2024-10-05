@@ -2,38 +2,34 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '0 0 * * 1' # At 00:00 on Monday
+    - cron: '0 */3 * * *'
+  workflow_dispatch: {}
 
 jobs:
-  build:
+  aggregate:
+    name: Aggregate Smartraveller Destinations and Advisories
     runs-on: ubuntu-latest
+    permissions:
+      # Give GITHUB_TOKEN write permission to commit and push changes
+      contents: write
     steps:
-      - name: checkout repo content
-        uses: actions/checkout@v2 # Checkout the repository content
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: setup python
-        uses: actions/setup-python@v4
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v2
         with:
-          python-version: '3.10' # Install the python version needed
+          python-version: 3.10.10
 
-      - name: install python packages
+      - name: Install requirements
         run: |
           python -m pip install --upgrade pip
-          pip install -r compounder/requirements.txt
+          pip install -r requirements.txt
 
-      - name: execute py script # run main.py
-        run: python compounder/compounder.py
+      - name: Run aggregation script
+        run: python smartraveller/aggregate.py
 
-      - name: commit output file
-        uses: EndBug/add-and-commit@v7
+      - name: Commit aggregated data
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          author_name: github actions
-          author_email: beep@kevle.xyz
-          message: "update smartraveller compounded advisories"
-          add: 'smartraveller-compounded.json'
-          signoff: true
-
-      - name: push changes
-        uses: ad-m/github-push-action@v0.5.0
-        with:
-          branch: main
+          commit_message: "Update Smartraveller data"
