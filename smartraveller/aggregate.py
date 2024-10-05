@@ -12,20 +12,18 @@ OUTPUT_PREFIX = "data"
 
 
 def _save_destinations():
-    destinations = {
-        country: destination.model_dump()
-        for country, destination in _fetch_destinations().items()
-    }
-
-    with open(f"{OUTPUT_PREFIX}/destinations.json", "w") as outfile:
-        json.dump(
-            {
-                "last_updated": datetime.now(timezone.utc).isoformat(),
-                "destinations": dict(sorted(destinations.items())),
-            },
-            outfile,
-            indent=4,
-        )
+    response = requests.get(f"{BASE_URL}/destinations?refetch=true")
+    if response.status_code == 200:
+        with open(f"{OUTPUT_PREFIX}/destinations.json", "w") as outfile:
+            json.dump(
+                {
+                    "last_updated": datetime.now(timezone.utc).isoformat(),
+                    "destinations": response.json(),
+                },
+                outfile,
+                indent=4,
+            )
+        logging.info("Saved destinations")
 
 
 def _aggregate_advisories():
@@ -47,6 +45,7 @@ def _aggregate_advisories():
             outfile,
             indent=4,
         )
+        logging.info("Saved advisories")
 
 
 if __name__ == "__main__":

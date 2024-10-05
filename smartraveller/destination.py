@@ -30,19 +30,25 @@ MANUAL_MAPPINGS: dict[str, str | list[str]] = {
 }
 
 
-def get_destinations() -> dict[str, SmartravellerDestination]:
-    try:
-        with open("data/destinations.json", "r") as destinations:
-            destinations = json.load(destinations)["destinations"].items()
-            return {
-                country: SmartravellerDestination(**destination)
-                for country, destination in destinations
-            }
-    except FileNotFoundError:
-        return _fetch_destinations()
+def get_destinations(refetch: bool = False) -> dict[str, SmartravellerDestination]:
+    if not refetch:
+        try:
+            with open("data/destinations.json", "r") as destinations:
+                destinations = json.load(destinations)["destinations"]
+        except FileNotFoundError:
+            destinations = _fetch_destinations()
+    else:
+        destinations = _fetch_destinations()
+
+    return {
+        country: SmartravellerDestination(**destination)
+        if isinstance(destination, dict)
+        else destination
+        for country, destination in destinations.items()
+    }
 
 
-def _fetch_destinations() -> list[dict[str, SmartravellerDestination]]:
+def _fetch_destinations() -> dict[str, SmartravellerDestination]:
     response = requests.get("https://www.smartraveller.gov.au/api/publishedpages")
     if response.status_code != 200:
         logging.error("Failed to get destinations")

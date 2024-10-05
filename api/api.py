@@ -3,6 +3,7 @@ import json
 from flask import Flask, Response, request
 
 from smartraveller.advisory import get_advisory
+from smartraveller.destination import get_destinations
 
 app = Flask(__name__, static_url_path="")
 
@@ -36,15 +37,21 @@ def advisory():
 @app.route("/advisories")
 def advisories():
     with open("data/advisories.json", "r") as advisories_file:
-        json_advisories = json.load(advisories_file)
-    return _return_success(json_advisories)
+        advisories = json.load(advisories_file)
+    return _return_success(advisories)
 
 
 @app.route("/destinations")
 def destinations():
-    with open("data/destinations.json", "r") as destinations_file:
-        destinations = json.load(destinations_file)
-    return _return_success(destinations)
+    refetch = request.args.get("refetch") == "true"
+    destinations = get_destinations(refetch)
+
+    return _return_success(
+        {
+            country: destination.model_dump()
+            for country, destination in sorted(destinations.items())
+        }
+    )
 
 
 def _return_success(data: dict, cache_duration_min: int = 60) -> Response:

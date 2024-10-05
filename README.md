@@ -55,7 +55,6 @@ Get all available Smartraveller advisories. This is updated every 3 hours.
 {
     "last_updated": "2024-10-05T04:55:06.260067+00:00",
     "advisories": [
-      ...
         {
           "country": {
             "name": "Spain",
@@ -65,7 +64,6 @@ Get all available Smartraveller advisories. This is updated every 3 hours.
           "level": 1,
           "page_url": "https://www.smartraveller.gov.au/destinations/europe/spain"
         },
-      ...
     ]
 }
 ```
@@ -80,7 +78,6 @@ Get all available Smartraveller destinations. This is updated every 3 hours.
 {
     "last_updated": "2024-10-05T04:55:06.260067+00:00",
     "destinations": {
-      ...
       "ES": {
         "country": {
           "name": "Spain",
@@ -88,7 +85,6 @@ Get all available Smartraveller destinations. This is updated every 3 hours.
         },
         "page_url": "/destinations/europe/spain"
       },
-      ...
     }
 }
 ```
