@@ -2,14 +2,16 @@
 
 A simple API for travel advisories published by the Australian DFAT [Smartraveller](https://www.smartraveller.gov.au/).
 
-**This is not an official API. Visit the Smartraveller website for the latest information.**
+**This is not an official API. Visit the [Smartraveller website](https://www.smartraveller.gov.au) for the latest information.**
 
 Available at https://smartraveller.api.kevle.xyz/
 
-## Locally running
+## Running Locally
+
 ```
-pip install -r requirements.txt
-python wsgi.py
+pip install pipenv
+pipenv install
+pipenv run python wsgi.py
 ```
 
 ## Deployment
@@ -47,7 +49,7 @@ https://smartraveller.api.kevle.xyz/advisory?country=es
 
 ### [GET /advisories](https://smartraveller.api.kevle.xyz/advisories)
 
-Get all available Smartraveller advisories. This is updated every 3 hours.
+Get all available Smartraveller advisories. This is updated every 6 hours.
 
 #### Example Response
 
@@ -70,7 +72,7 @@ Get all available Smartraveller advisories. This is updated every 3 hours.
 
 ### [GET /destinations](https://smartraveller.api.kevle.xyz/destinations)
 
-Get all available Smartraveller destinations. This is updated every 3 hours.
+Get all available Smartraveller destinations. This is updated every 6 hours.
 
 #### Example Response
 

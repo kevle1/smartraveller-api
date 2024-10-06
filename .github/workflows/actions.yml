@@ -2,7 +2,7 @@ name: Aggregate Smartraveller Data
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.10
+      - name: Set up Python 3.12
         uses: actions/setup-python@v2
         with:
           allow-prereleases: true
@@ -33,4 +33,4 @@ jobs:
       - name: Commit aggregated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update Smartraveller data"
+          commit_message: "ci: update Smartraveller data"
