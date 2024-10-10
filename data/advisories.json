@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-10-10T00:07:30.425196+00:00",
+    "last_updated": "2024-10-10T06:16:55.289077+00:00",
     "advisories": [
         {
             "country": {
@@ -972,15 +972,6 @@
             "advisory": "Reconsider your need to travel",
             "level": 3,
             "page_url": "https://www.smartraveller.gov.au/destinations/africa/mauritania"
-        },
-        {
-            "country": {
-                "name": "Mauritius",
-                "alpha_2": "MU"
-            },
-            "advisory": "Exercise normal safety precautions",
-            "level": 1,
-            "page_url": "https://www.smartraveller.gov.au/destinations/africa/mauritius"
         },
         {
             "country": {
