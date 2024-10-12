@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-10-12T06:14:41.249516+00:00",
+    "last_updated": "2024-10-12T12:18:41.808134+00:00",
     "advisories": [
         {
             "country": {
@@ -1188,15 +1188,6 @@
             "advisory": "Reconsider your need to travel",
             "level": 3,
             "page_url": "https://www.smartraveller.gov.au/destinations/middle-east/israel-and-occupied-palestinian-territories"
-        },
-        {
-            "country": {
-                "name": "French Polynesia",
-                "alpha_2": "PF"
-            },
-            "advisory": "Exercise normal safety precautions",
-            "level": 1,
-            "page_url": "https://www.smartraveller.gov.au/destinations/pacific/french-polynesia"
         },
         {
             "country": {
