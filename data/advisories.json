@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-10-14T06:17:22.889594+00:00",
+    "last_updated": "2024-10-14T12:20:35.734217+00:00",
     "advisories": [
         {
             "country": {
@@ -672,8 +672,8 @@
                 "name": "Israel",
                 "alpha_2": "IL"
             },
-            "advisory": "Reconsider your need to travel",
-            "level": 3,
+            "advisory": "Do not travel",
+            "level": 4,
             "page_url": "https://www.smartraveller.gov.au/destinations/middle-east/israel-and-occupied-palestinian-territories"
         },
         {
@@ -1185,8 +1185,8 @@
                 "name": "Palestine, State of",
                 "alpha_2": "PS"
             },
-            "advisory": "Reconsider your need to travel",
-            "level": 3,
+            "advisory": "Do not travel",
+            "level": 4,
             "page_url": "https://www.smartraveller.gov.au/destinations/middle-east/israel-and-occupied-palestinian-territories"
         },
         {
