@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-10-16T00:44:56.608054+00:00",
+    "last_updated": "2024-10-16T06:16:10.772784+00:00",
     "advisories": [
         {
             "country": {
@@ -1170,15 +1170,6 @@
             "advisory": "Exercise normal safety precautions",
             "level": 1,
             "page_url": "https://www.smartraveller.gov.au/destinations/europe/portugal"
-        },
-        {
-            "country": {
-                "name": "Paraguay",
-                "alpha_2": "PY"
-            },
-            "advisory": "Exercise a high degree of caution",
-            "level": 2,
-            "page_url": "https://www.smartraveller.gov.au/destinations/americas/paraguay"
         },
         {
             "country": {
