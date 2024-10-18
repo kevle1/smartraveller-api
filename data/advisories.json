@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-10-17T18:06:04.337616+00:00",
+    "last_updated": "2024-10-18T00:07:35.944998+00:00",
     "advisories": [
         {
             "country": {
@@ -717,8 +717,8 @@
                 "name": "Kazakhstan",
                 "alpha_2": "KZ"
             },
-            "advisory": "Exercise a high degree of caution",
-            "level": 2,
+            "advisory": "Exercise normal safety precautions",
+            "level": 1,
             "page_url": "https://www.smartraveller.gov.au/destinations/asia/kazakhstan"
         },
         {
