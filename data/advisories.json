@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-10-23T12:05:58.123532+00:00",
+    "last_updated": "2024-10-23T18:06:10.307815+00:00",
     "advisories": [
         {
             "country": {
@@ -1584,15 +1584,6 @@
             "advisory": "Exercise normal safety precautions",
             "level": 1,
             "page_url": "https://www.smartraveller.gov.au/destinations/africa/zambia"
-        },
-        {
-            "country": {
-                "name": "Zimbabwe",
-                "alpha_2": "ZW"
-            },
-            "advisory": "Exercise a high degree of caution",
-            "level": 2,
-            "page_url": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe"
         }
     ]
 }
