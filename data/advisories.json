@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-10-24T00:08:05.865504+00:00",
+    "last_updated": "2024-10-24T06:06:02.573809+00:00",
     "advisories": [
         {
             "country": {
@@ -1323,6 +1323,15 @@
             "advisory": "Do not travel",
             "level": 4,
             "page_url": "https://www.smartraveller.gov.au/destinations/africa/south-sudan"
+        },
+        {
+            "country": {
+                "name": "Slovakia",
+                "alpha_2": "SK"
+            },
+            "advisory": "Exercise normal safety precautions",
+            "level": 1,
+            "page_url": "https://www.smartraveller.gov.au/destinations/europe/slovakia"
         },
         {
             "country": {
