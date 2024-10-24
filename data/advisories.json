@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-10-23T18:06:10.307815+00:00",
+    "last_updated": "2024-10-24T00:08:05.865504+00:00",
     "advisories": [
         {
             "country": {
@@ -1326,15 +1326,6 @@
         },
         {
             "country": {
-                "name": "Slovakia",
-                "alpha_2": "SK"
-            },
-            "advisory": "Exercise normal safety precautions",
-            "level": 1,
-            "page_url": "https://www.smartraveller.gov.au/destinations/europe/slovakia"
-        },
-        {
-            "country": {
                 "name": "Slovenia",
                 "alpha_2": "SI"
             },
@@ -1584,6 +1575,15 @@
             "advisory": "Exercise normal safety precautions",
             "level": 1,
             "page_url": "https://www.smartraveller.gov.au/destinations/africa/zambia"
+        },
+        {
+            "country": {
+                "name": "Zimbabwe",
+                "alpha_2": "ZW"
+            },
+            "advisory": "Exercise a high degree of caution",
+            "level": 2,
+            "page_url": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe"
         }
     ]
 }
