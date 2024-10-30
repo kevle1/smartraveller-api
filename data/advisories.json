@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-10-30T12:05:52.069817+00:00",
+    "last_updated": "2024-10-30T18:07:50.200780+00:00",
     "advisories": [
         {
             "country": {
@@ -858,15 +858,6 @@
         },
         {
             "country": {
-                "name": "Moldova, Republic of",
-                "alpha_2": "MD"
-            },
-            "advisory": "Exercise a high degree of caution",
-            "level": 2,
-            "page_url": "https://www.smartraveller.gov.au/destinations/europe/moldova"
-        },
-        {
-            "country": {
                 "name": "Madagascar",
                 "alpha_2": "MG"
             },
@@ -1311,9 +1302,9 @@
                 "name": "Serbia",
                 "alpha_2": "RS"
             },
-            "advisory": "Exercise a high degree of caution",
-            "level": 2,
-            "page_url": "https://www.smartraveller.gov.au/destinations/europe/kosovo"
+            "advisory": "Exercise normal safety precautions",
+            "level": 1,
+            "page_url": "https://www.smartraveller.gov.au/destinations/europe/serbia"
         },
         {
             "country": {
