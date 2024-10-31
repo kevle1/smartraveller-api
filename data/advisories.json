@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-10-30T18:07:50.200780+00:00",
+    "last_updated": "2024-10-31T00:07:29.275145+00:00",
     "advisories": [
         {
             "country": {
@@ -855,6 +855,15 @@
             "advisory": "Exercise a high degree of caution",
             "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/africa/morocco"
+        },
+        {
+            "country": {
+                "name": "Moldova, Republic of",
+                "alpha_2": "MD"
+            },
+            "advisory": "Exercise a high degree of caution",
+            "level": 2,
+            "page_url": "https://www.smartraveller.gov.au/destinations/europe/moldova"
         },
         {
             "country": {
