@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-11-08T12:05:48.176622+00:00",
+    "last_updated": "2024-11-08T18:06:16.248525+00:00",
     "advisories": [
         {
             "country": {
@@ -585,6 +585,15 @@
             "advisory": "Exercise a high degree of caution",
             "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/americas/honduras"
+        },
+        {
+            "country": {
+                "name": "Croatia",
+                "alpha_2": "HR"
+            },
+            "advisory": "Exercise normal safety precautions",
+            "level": 1,
+            "page_url": "https://www.smartraveller.gov.au/destinations/europe/croatia"
         },
         {
             "country": {
