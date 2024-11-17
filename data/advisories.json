@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-11-16T18:06:22.926060+00:00",
+    "last_updated": "2024-11-17T00:07:43.611506+00:00",
     "advisories": [
         {
             "country": {
@@ -1215,6 +1215,15 @@
             "advisory": "Exercise normal safety precautions",
             "level": 1,
             "page_url": "https://www.smartraveller.gov.au/destinations/europe/romania"
+        },
+        {
+            "country": {
+                "name": "Russian Federation",
+                "alpha_2": "RU"
+            },
+            "advisory": "Do not travel",
+            "level": 4,
+            "page_url": "https://www.smartraveller.gov.au/destinations/europe/russia"
         },
         {
             "country": {
