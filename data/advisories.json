@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-11-18T18:05:48.337578+00:00",
+    "last_updated": "2024-11-19T00:08:20.438830+00:00",
     "advisories": [
         {
             "country": {
@@ -621,6 +621,15 @@
             "advisory": "Exercise a high degree of caution",
             "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/asia/indonesia"
+        },
+        {
+            "country": {
+                "name": "India",
+                "alpha_2": "IN"
+            },
+            "advisory": "Exercise a high degree of caution",
+            "level": 2,
+            "page_url": "https://www.smartraveller.gov.au/destinations/asia/india"
         },
         {
             "country": {
