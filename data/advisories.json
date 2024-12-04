@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-12-03T18:06:04.753854+00:00",
+    "last_updated": "2024-12-04T00:07:55.393775+00:00",
     "advisories": [
         {
             "country": {
@@ -810,6 +810,15 @@
             "advisory": "Exercise a high degree of caution",
             "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/asia/sri-lanka"
+        },
+        {
+            "country": {
+                "name": "Lesotho",
+                "alpha_2": "LS"
+            },
+            "advisory": "Exercise a high degree of caution",
+            "level": 2,
+            "page_url": "https://www.smartraveller.gov.au/destinations/africa/lesotho"
         },
         {
             "country": {
