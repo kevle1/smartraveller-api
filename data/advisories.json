@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-12-09T06:06:11.088609+00:00",
+    "last_updated": "2024-12-09T12:06:16.109222+00:00",
     "advisories": [
         {
             "country": {
@@ -279,6 +279,15 @@
             "advisory": "Exercise a high degree of caution",
             "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/africa/cameroon"
+        },
+        {
+            "country": {
+                "name": "Congo, The Democratic Republic of the",
+                "alpha_2": "CD"
+            },
+            "advisory": "Reconsider your need to travel",
+            "level": 3,
+            "page_url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo"
         },
         {
             "country": {
