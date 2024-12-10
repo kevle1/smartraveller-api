@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-12-10T06:06:02.649031+00:00",
+    "last_updated": "2024-12-10T12:06:14.754599+00:00",
     "advisories": [
         {
             "country": {
@@ -1311,9 +1311,9 @@
                 "name": "Serbia",
                 "alpha_2": "RS"
             },
-            "advisory": "Exercise normal safety precautions",
-            "level": 1,
-            "page_url": "https://www.smartraveller.gov.au/destinations/europe/serbia"
+            "advisory": "Exercise a high degree of caution",
+            "level": 2,
+            "page_url": "https://www.smartraveller.gov.au/destinations/europe/kosovo"
         },
         {
             "country": {
