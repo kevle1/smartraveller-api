@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-12-12T06:06:07.691690+00:00",
+    "last_updated": "2024-12-12T12:06:28.345567+00:00",
     "advisories": [
         {
             "country": {
@@ -324,15 +324,6 @@
             "advisory": "Exercise a high degree of caution",
             "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/americas/cuba"
-        },
-        {
-            "country": {
-                "name": "Cyprus",
-                "alpha_2": "CY"
-            },
-            "advisory": "Exercise a high degree of caution",
-            "level": 2,
-            "page_url": "https://www.smartraveller.gov.au/destinations/europe/cyprus"
         },
         {
             "country": {
