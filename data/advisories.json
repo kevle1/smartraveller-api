@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-12-26T06:05:58.914006+00:00",
+    "last_updated": "2024-12-26T12:06:08.969092+00:00",
     "advisories": [
         {
             "country": {
@@ -513,6 +513,15 @@
             "advisory": "Exercise a high degree of caution",
             "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/africa/ghana"
+        },
+        {
+            "country": {
+                "name": "Guinea",
+                "alpha_2": "GN"
+            },
+            "advisory": "Exercise a high degree of caution",
+            "level": 2,
+            "page_url": "https://www.smartraveller.gov.au/destinations/africa/guinea"
         },
         {
             "country": {
