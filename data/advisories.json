@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-12-27T06:05:48.288076+00:00",
+    "last_updated": "2024-12-27T12:05:42.972981+00:00",
     "advisories": [
         {
             "country": {
@@ -936,15 +936,6 @@
             "advisory": "Do not travel",
             "level": 4,
             "page_url": "https://www.smartraveller.gov.au/destinations/asia/myanmar"
-        },
-        {
-            "country": {
-                "name": "Montenegro",
-                "alpha_2": "ME"
-            },
-            "advisory": "Exercise normal safety precautions",
-            "level": 1,
-            "page_url": "https://www.smartraveller.gov.au/destinations/europe/montenegro"
         },
         {
             "country": {
