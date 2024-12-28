@@ -1,5 +1,5 @@
 {
-    "last_updated": "2024-12-28T06:05:37.179054+00:00",
+    "last_updated": "2024-12-28T12:05:43.968326+00:00",
     "advisories": [
         {
             "country": {
@@ -1485,15 +1485,6 @@
             "advisory": "Exercise a high degree of caution",
             "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/africa/uganda"
-        },
-        {
-            "country": {
-                "name": "Ukraine",
-                "alpha_2": "UA"
-            },
-            "advisory": "Do not travel",
-            "level": 4,
-            "page_url": "https://www.smartraveller.gov.au/destinations/europe/ukraine"
         },
         {
             "country": {
