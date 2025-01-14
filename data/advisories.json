@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-13T18:06:56.950853+00:00",
+    "last_updated": "2025-01-14T06:05:38.052266+00:00",
     "advisories": [
         {
             "country": {
@@ -1014,8 +1014,8 @@
                 "name": "New Caledonia",
                 "alpha_2": "NC"
             },
-            "advisory": "Reconsider your need to travel",
-            "level": 3,
+            "advisory": "Exercise a high degree of caution",
+            "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/pacific/new-caledonia"
         },
         {

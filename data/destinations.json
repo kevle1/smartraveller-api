@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-13T18:02:57.944973+00:00",
+    "last_updated": "2025-01-14T06:01:39.445667+00:00",
     "destinations": {
         "AE": {
             "country": {
@@ -804,7 +804,7 @@
                 "name": "Nigeria",
                 "alpha_2": "NG"
             },
-            "page_url": "/destinations/africa/niger"
+            "page_url": "/destinations/africa/nigeria"
         },
         "NI": {
             "country": {
