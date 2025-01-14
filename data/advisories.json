@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-14T06:05:38.052266+00:00",
+    "last_updated": "2025-01-14T12:06:07.664785+00:00",
     "advisories": [
         {
             "country": {
@@ -1023,9 +1023,9 @@
                 "name": "Nigeria",
                 "alpha_2": "NG"
             },
-            "advisory": "Do not travel",
-            "level": 4,
-            "page_url": "https://www.smartraveller.gov.au/destinations/africa/niger"
+            "advisory": "Reconsider your need to travel",
+            "level": 3,
+            "page_url": "https://www.smartraveller.gov.au/destinations/africa/nigeria"
         },
         {
             "country": {
