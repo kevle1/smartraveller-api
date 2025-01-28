@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-28T12:05:31.895398+00:00",
+    "last_updated": "2025-01-28T18:05:43.920186+00:00",
     "advisories": [
         {
             "country": {
@@ -27,15 +27,6 @@
             "advisory": "Exercise a high degree of caution",
             "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/europe/albania"
-        },
-        {
-            "country": {
-                "name": "United Arab Emirates",
-                "alpha_2": "AE"
-            },
-            "advisory": "Exercise a high degree of caution",
-            "level": 2,
-            "page_url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates"
         },
         {
             "country": {
