@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-01-30T18:05:50.606137+00:00",
+    "last_updated": "2025-01-31T00:07:37.181724+00:00",
     "advisories": [
         {
             "country": {
@@ -486,6 +486,15 @@
             "advisory": "Exercise a high degree of caution",
             "level": 2,
             "page_url": "https://www.smartraveller.gov.au/destinations/africa/gabon"
+        },
+        {
+            "country": {
+                "name": "United Kingdom",
+                "alpha_2": "GB"
+            },
+            "advisory": "Exercise a high degree of caution",
+            "level": 2,
+            "page_url": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom"
         },
         {
             "country": {
