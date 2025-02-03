@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-03T00:07:48.324107+00:00",
+    "last_updated": "2025-02-03T06:05:42.358932+00:00",
     "advisories": [
         {
             "country": {
@@ -285,8 +285,8 @@
                 "name": "Congo, The Democratic Republic of the",
                 "alpha_2": "CD"
             },
-            "advisory": "Reconsider your need to travel",
-            "level": 3,
+            "advisory": "Do not travel",
+            "level": 4,
             "page_url": "https://www.smartraveller.gov.au/destinations/africa/democratic-republic-congo"
         },
         {
