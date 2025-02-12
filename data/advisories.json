@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-12T00:08:13.416132+00:00",
+    "last_updated": "2025-02-12T06:05:30.519427+00:00",
     "advisories": [
         {
             "country": {
@@ -117,6 +117,15 @@
             "advisory": "Reconsider your need to travel",
             "level": 3,
             "page_url": "https://www.smartraveller.gov.au/destinations/asia/bangladesh"
+        },
+        {
+            "country": {
+                "name": "Bulgaria",
+                "alpha_2": "BG"
+            },
+            "advisory": "Exercise normal safety precautions",
+            "level": 1,
+            "page_url": "https://www.smartraveller.gov.au/destinations/europe/bulgaria"
         },
         {
             "country": {
