@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-02-14T18:06:19.452353+00:00",
+    "last_updated": "2025-02-15T00:08:04.570865+00:00",
     "advisories": [
         {
             "country": {
@@ -774,6 +774,15 @@
             "advisory": "Exercise normal safety precautions",
             "level": 1,
             "page_url": "https://www.smartraveller.gov.au/destinations/asia/laos"
+        },
+        {
+            "country": {
+                "name": "Lebanon",
+                "alpha_2": "LB"
+            },
+            "advisory": "Do not travel",
+            "level": 4,
+            "page_url": "https://www.smartraveller.gov.au/destinations/middle-east/lebanon"
         },
         {
             "country": {
