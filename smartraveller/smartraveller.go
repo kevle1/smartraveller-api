@@ -22,7 +22,7 @@ var customCountryPageSlugToAlpha2 = map[string]string{
 	"democratic-republic-congo":                   "CD",
 	"eswatini":                                    "SZ",
 	"federated-states-micronesia":                 "FM",
-	"israel-and-occupied-palestinian-territories": "PS", // IL
+	"israel-and-occupied-palestinian-territories": "PS",
 	"kosovo": "XK",
 	"macau":  "MO",
 	"north-korea-democratic-peoples-republic-korea": "KP",
@@ -49,9 +49,7 @@ type Advisory struct {
 }
 
 func getUrlSlug(url string) string {
-	// Split the URL by slashes
 	parts := strings.Split(url, "/")
-	// Return the last part of the URL
 	return parts[len(parts)-1]
 }
 
@@ -65,11 +63,13 @@ func cleanString(str string) string {
 	re := regexp.MustCompile(`<[^>]*>`)
 	str = re.ReplaceAllString(str, "")
 
+	re = regexp.MustCompile(`\s+`)
+	str = re.ReplaceAllString(str, " ")
+
 	str = strings.ReplaceAll(str, "\n", " ")
 	str = strings.ReplaceAll(str, "&nbsp;", " ")
 
-	re = regexp.MustCompile(`\s+`)
-	str = re.ReplaceAllString(str, " ")
+	str = strings.TrimSpace(str)
 
 	return str
 }
@@ -99,8 +99,6 @@ func parseDate(date string) string {
 func parseCountry(country string, pageUrl string) (Country, error) {
 	// Frustratingly the Smartraveller API does not provide the country name in a standard format
 	// The country will look like "China", "Spain", we need to convert it to a standard format (ISO Alpha 2)
-	// Use various methods to try map the country name
-
 	country = removeTextInBrackets(country)
 	query := gountries.New()
 
@@ -154,7 +152,7 @@ func parseAdvisoryLevel(levelValue string) (int, error) {
 }
 
 func parseAdvisory(item gofeed.Item) (Advisory, error) {
-	// The actual advisory levels are nested in a custom "ta:warnings" object
+	// The actual advisory levels are nested in a custom "ta:warnings" RSS object
 	stTaWarnings := item.Extensions["ta"]["warnings"][0].Children
 
 	levelValue := stTaWarnings["level"][0].Value

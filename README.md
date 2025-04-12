@@ -4,12 +4,12 @@ A simple API for travel advisories published by the Australian DFAT [Smartravell
 
 **This is not an official API. Visit the [Smartraveller website](https://www.smartraveller.gov.au) for the latest information.**
 
-Available at https://smartraveller.api.kevle.xyz/
+Available at https://smartraveller.kevle.xyz/api/
 
 ## Running Locally
 
 ```sh
-go run ./api
+go run .
 ```
 
 ## Deployment
@@ -18,9 +18,9 @@ go run ./api
 
 ## Endpoints
 
-### [GET /advisory](https://smartraveller.api.kevle.xyz/advisory)
+### [GET /api/advisory](https://smartraveller.kevle.xyz/api/advisory)
 
-Get an advice summary for a country. May be cached for up to 1 hour.
+Get an advice summary for a country. May be cached for up to half an hour.
 
 #### Query Parameters
 
@@ -29,7 +29,7 @@ Get an advice summary for a country. May be cached for up to 1 hour.
 
 #### Example Response
 
-https://smartraveller.api.kevle.xyz/advisory?country=es
+https://smartraveller.kevle.xyz/api/advisory?country=es
 
 ```json
 {
@@ -48,9 +48,9 @@ https://smartraveller.api.kevle.xyz/advisory?country=es
 }
 ```
 
-### [GET /advisories](https://smartraveller.api.kevle.xyz/advisories)
+### [GET /api/advisories](https://smartraveller.kevle.xyz/api/advisories)
 
-Get all available Smartraveller advisories. This is updated every 6 hours.
+Get all available Smartraveller advisories. May be cached for up to 1 hour.
 
 #### Example Response
 

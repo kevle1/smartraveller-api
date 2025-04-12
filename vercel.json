@@ -1,0 +1,22 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path",
+            "destination": "/:path*"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                }
+            ]
+        }
+    ],
+    "regions": [
+        "syd1"
+    ]
+}
