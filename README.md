@@ -1,4 +1,10 @@
-# Smartraveller API
+# DFAT now provides an official API:
+
+Info: https://www.smartraveller.gov.au/consular-services/resources
+
+Endpoint: https://www.smartraveller.gov.au/destinations-export
+
+# Smartraveller API (Archived) 
 
 A simple API for travel advisories published by the Australian DFAT [Smartraveller](https://www.smartraveller.gov.au/).
 
